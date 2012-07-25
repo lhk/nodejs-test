@@ -1,7 +1,7 @@
 express=require("express")
 app = express.createServer()
 
-io = require("socket.io").listen(app)
+#io = require("socket.io").listen(app)
 app.set("views", __dirname + "/views")
 app.set("view engine", "jade")
 
