@@ -1,8 +1,8 @@
 express=require("express")
 app = express.createServer()
 
-listen=(req,res)->
-	 res.send("Hello World")
+app.set("views", __dirname + "/views")
+app.set("view engine", "jade")
 
-app.get("/",listen)
+app.get("/",(req,res) -> res.render("index"))
 app.listen(4000)
