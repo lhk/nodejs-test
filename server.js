@@ -6,15 +6,13 @@
 
   app = express.createServer();
 
-  app.set("views", __dirname + "/views");
-
   app.set("view engine", "jade");
 
   app.get("/", function(req, res) {
     return res.render("index");
   });
 
-  app.listen(80);
+  app.listen(4000);
 
   io = require("socket.io").listen(app);
 
