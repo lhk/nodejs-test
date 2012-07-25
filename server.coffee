@@ -1,7 +1,7 @@
 express=require("express")
 app = express.createServer()
 
-#app.set("views", __dirname + "/views")
+app.set("views", __dirname + "/views")
 app.set("view engine", "jade")
 
 app.get("/",(req,res) -> res.render("index"))
@@ -13,4 +13,4 @@ io.sockets.on("connection", (socket)->
 	socket.send("Please input your username: ")
 
 	socket.on("message",(message)->
-		io.sockets.send(message))
+		io.sockets.send(message)))

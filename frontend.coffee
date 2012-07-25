@@ -1,3 +1,5 @@
-socket=io.connect("http://localhost")
-socket.on("message", (data)-> 
-	$("#log ul").append("<li>"+data+"</li>"))
+$ ->
+	socket=io.connect("http://localhost")
+	socket.on("message", (data)->
+		alert("message")
+		$("ul").append("<li>"+data+"</li>"))

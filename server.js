@@ -6,6 +6,8 @@
 
   app = express.createServer();
 
+  app.set("views", __dirname + "/views");
+
   app.set("view engine", "jade");
 
   app.get("/", function(req, res) {
@@ -17,11 +19,10 @@
   io = require("socket.io").listen(app);
 
   io.sockets.on("connection", function(socket) {
-    socket.emit("news", {
-      hello: "world"
-    });
-    return socket.on("other event", function(data) {
-      return console.log(data);
+    socket.send("Welcome to this chat server");
+    socket.send("Please input your username: ");
+    return socket.on("message", function(message) {
+      return io.sockets.send(message);
     });
   });
 
