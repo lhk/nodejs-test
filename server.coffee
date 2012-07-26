@@ -11,8 +11,8 @@ fs.stat(file_path, (err,stat)->
 			"Content-Length":stat.size})
 		fs.readFile("file_path", (err, file_content)->
 			res.write(file_content)
-			res.end)
-	server.listen(4000)))
+			res.end))
+	server.listen(4000))
 
 
 
