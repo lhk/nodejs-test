@@ -7,4 +7,12 @@ app.set "view engine", "jade"
 app.get "/", (req,res)->
 	res.render "index"
 
-app.listen(4000)
+server=app.listen(80)
+
+io=require("socket.io").listen(server)
+io.sockets.on "connection", (socket)->
+	socket.emit "news", "hi"
+	socket.on "news", (data)->
+		io.sockets.emit "news", data
+	socket.on "disconnect", ()->
+		io.sockets.emit "news", "someone has left us"
