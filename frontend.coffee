@@ -8,6 +8,8 @@ $ ->
 	alert("still running")
 	socket.on "news", (data)->
 		$("#log").append "<li>"+data+"</li>"
+		window.scrollBy(0,1000)
+		input.focus
 
 	input.keypress (event)->
 		if event.which != 13 

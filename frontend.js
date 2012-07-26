@@ -10,7 +10,9 @@
     socket = io.connect("http://localhost");
     alert("still running");
     socket.on("news", function(data) {
-      return $("#log").append("<li>" + data + "</li>");
+      $("#log").append("<li>" + data + "</li>");
+      window.scrollBy(0, 1000);
+      return input.focus;
     });
     return input.keypress(function(event) {
       var message;
