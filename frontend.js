@@ -3,7 +3,8 @@
 
   $(function() {
     alert("ready");
-    return $("p").html("jQuery test passed");
+    $("p").html("jQuery test passed");
+    return $("#log ul").append("<li>low-level chat room </li>");
   });
 
   /socket=io.connect("http:\/\/localhost")socket.on("message",(data)->console.log(data)alert("message")$("ul").append("<li>"+data+"<\/li>"))/;
