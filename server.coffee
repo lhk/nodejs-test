@@ -11,7 +11,9 @@ server=app.listen(80)
 
 io=require("socket.io").listen(server)
 io.sockets.on "connection", (socket)->
+	socket.broadcast.emit "news", "someone has joined us"
 	socket.emit "news", "hi"
+	socket.emit "news", "hello world"
 	socket.on "news", (data)->
 		io.sockets.emit "news", data
 	socket.on "disconnect", ()->
