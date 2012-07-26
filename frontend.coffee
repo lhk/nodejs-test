@@ -5,5 +5,5 @@ $ ->
 	socket=io.connect "http://localhost"
 	alert("still running")
 	socket.on "news", (data)->
-		$("#log").append "<li>"+data+"<li>"
+		$("#log").append "<li>"+data+"</li>"
 

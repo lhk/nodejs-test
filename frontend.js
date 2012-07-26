@@ -9,7 +9,7 @@
     socket = io.connect("http://localhost");
     alert("still running");
     return socket.on("news", function(data) {
-      return $("#log").append("<li>" + data + "<li>");
+      return $("#log").append("<li>" + data + "</li>");
     });
   });
 
