@@ -1,21 +1,10 @@
-http = require("http")
-fs = require("fs")
-sys = require("sys")
 
-file_path = __dirname + "/index.html"
-fs.stat file_path, (err,stat)->
-	console.log err
-	server = http.createServer (req,res)->
-		console.log "new request"
+express = require("express")
+app=express.createServer()
+app.use(express.static(__dirname))
+app.set "views", __dirname + "/views"
+app.set "view engine", "jade"
+app.get "/", (req,res)->
+	res.render "index"
 
-		res.writeHead(200, 
-			{"Content-Type":"text/html",
-			"Content-Length":stat.size})
-
-		rs=fs.createReadStream file_path
-
-		sys.pump rs,res, (err)->
-			if err
-				throw err
-
-	server.listen 4000
+app.listen(4000)

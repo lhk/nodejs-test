@@ -1,5 +1,6 @@
-alert("ready")
-$("p").html "jQuery test passed"
+$ ->
+	alert("ready")
+	$("p").html "jQuery test passed"
 
 ///socket=io.connect("http://localhost")
 socket.on("message", (data)->
