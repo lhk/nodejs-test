@@ -1,0 +1,22 @@
+body{
+	background-color: #aabbff
+}
+#log{
+	text-align: left;
+	color:#06040e;
+	position:absolute;
+	left:5%;
+	bottom:10%;
+}
+#entry{
+	background-color: #557799;
+	position:absolute;
+	left:5%;
+	bottom:5%;
+	width:80%;
+}
+h1{
+	position: absolute;
+	left: 50%;
+	top: 10%;
+}
