@@ -1,0 +1,2682 @@
+info it worked if it ends with ok
+verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'jitsu' ]
+info using npm@1.0.106
+info using node@v0.5.11-pre
+verbose config file /home/lhk/.npmrc
+verbose config file /usr/local/etc/npmrc
+verbose config file /usr/local/lib/node_modules/npm/npmrc
+silly testEngine { name: 'express',
+silly testEngine   description: 'Sinatra inspired web development framework',
+silly testEngine   version: '3.0.0rc1',
+silly testEngine   author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+silly testEngine   contributors: 
+silly testEngine    [ { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+silly testEngine      { name: 'Aaron Heckmann',
+silly testEngine        email: 'aaron.heckmann+github@gmail.com' },
+silly testEngine      { name: 'Ciaran Jessup', email: 'ciaranj@gmail.com' },
+silly testEngine      { name: 'Guillermo Rauch', email: 'rauchg@gmail.com' } ],
+silly testEngine   dependencies: 
+silly testEngine    { connect: '2.4.1',
+silly testEngine      commander: '0.6.1',
+silly testEngine      'range-parser': '0.0.4',
+silly testEngine      mkdirp: '0.3.3',
+silly testEngine      cookie: '0.0.4',
+silly testEngine      crc: '0.2.0',
+silly testEngine      fresh: '0.1.0',
+silly testEngine      methods: '0.0.1',
+silly testEngine      send: '0.0.3',
+silly testEngine      debug: '*' },
+silly testEngine   devDependencies: 
+silly testEngine    { ejs: '*',
+silly testEngine      mocha: '*',
+silly testEngine      jade: '*',
+silly testEngine      hjs: '*',
+silly testEngine      stylus: '*',
+silly testEngine      should: '*',
+silly testEngine      'connect-redis': '*',
+silly testEngine      'github-flavored-markdown': '*',
+silly testEngine      supertest: '0.0.1' },
+silly testEngine   keywords: 
+silly testEngine    [ 'express',
+silly testEngine      'framework',
+silly testEngine      'sinatra',
+silly testEngine      'web',
+silly testEngine      'rest',
+silly testEngine      'restful',
+silly testEngine      'router',
+silly testEngine      'app',
+silly testEngine      'api' ],
+silly testEngine   publishConfig: { tag: '3.0' },
+silly testEngine   repository: { type: 'git', url: 'git://github.com/visionmedia/express.git' },
+silly testEngine   main: 'index',
+silly testEngine   bin: { express: './bin/express' },
+silly testEngine   scripts: { prepublish: 'npm prune', test: 'make test' },
+silly testEngine   engines: { node: '*' },
+silly testEngine   _id: 'express@3.0.0rc1',
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.106',
+silly testEngine   _nodeVersion: 'v0.5.11-pre',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /home/lhk/Desktop/node_modules/express/package.json
+verbose loadDefaults express@3.0.0rc1
+silly testEngine { name: 'jade',
+silly testEngine   description: 'Jade template engine',
+silly testEngine   version: '0.27.0',
+silly testEngine   author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+silly testEngine   repository: { type: 'git', url: 'git://github.com/visionmedia/jade.git' },
+silly testEngine   main: './index.js',
+silly testEngine   bin: { jade: './bin/jade' },
+silly testEngine   man: [ './jade.1' ],
+silly testEngine   dependencies: { commander: '0.6.1', mkdirp: '0.3.0' },
+silly testEngine   devDependencies: 
+silly testEngine    { mocha: '*',
+silly testEngine      markdown: '*',
+silly testEngine      stylus: '*',
+silly testEngine      uubench: '*',
+silly testEngine      should: '*',
+silly testEngine      less: '*',
+silly testEngine      'uglify-js': '*' },
+silly testEngine   component: { scripts: { jade: 'runtime.js' } },
+silly testEngine   scripts: { prepublish: 'npm prune' },
+silly testEngine   _id: 'jade@0.27.0',
+silly testEngine   engines: { node: '*' },
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.106',
+silly testEngine   _nodeVersion: 'v0.5.11-pre',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /home/lhk/Desktop/node_modules/jade/package.json
+verbose loadDefaults jade@0.27.0
+silly testEngine { name: 'coffee-script',
+silly testEngine   description: 'Unfancy JavaScript',
+silly testEngine   keywords: [ 'javascript', 'language', 'coffeescript', 'compiler' ],
+silly testEngine   author: { name: 'Jeremy Ashkenas' },
+silly testEngine   version: '1.3.3',
+silly testEngine   licenses: 
+silly testEngine    [ { type: 'MIT',
+silly testEngine        url: 'https://raw.github.com/jashkenas/coffee-script/master/LICENSE' } ],
+silly testEngine   engines: { node: '>=0.4.0' },
+silly testEngine   directories: { lib: './lib/coffee-script' },
+silly testEngine   main: './lib/coffee-script/coffee-script',
+silly testEngine   bin: { coffee: './bin/coffee', cake: './bin/cake' },
+silly testEngine   homepage: 'http://coffeescript.org',
+silly testEngine   bugs: { name: 'https://github.com/jashkenas/coffee-script/issues' },
+silly testEngine   repository: 
+silly testEngine    { type: 'git',
+silly testEngine      url: 'git://github.com/jashkenas/coffee-script.git' },
+silly testEngine   devDependencies: { 'uglify-js': '>=1.0.0', jison: '>=0.2.0' },
+silly testEngine   _id: 'coffee-script@1.3.3',
+silly testEngine   dependencies: {},
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.106',
+silly testEngine   _nodeVersion: 'v0.5.11-pre',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /home/lhk/Desktop/node_modules/coffee-script/package.json
+verbose loadDefaults coffee-script@1.3.3
+silly testEngine { name: 'socket.io',
+silly testEngine   version: '0.9.8',
+silly testEngine   description: 'Real-time apps made cross-browser & easy with a WebSocket-like API',
+silly testEngine   homepage: 'http://socket.io',
+silly testEngine   keywords: [ 'websocket', 'socket', 'realtime', 'socket.io', 'comet', 'ajax' ],
+silly testEngine   author: { name: 'Guillermo Rauch', email: 'guillermo@learnboost.com' },
+silly testEngine   contributors: 
+silly testEngine    [ { name: 'Guillermo Rauch', email: 'rauchg@gmail.com' },
+silly testEngine      { name: 'Arnout Kazemier', email: 'info@3rd-eden.com' },
+silly testEngine      { name: 'Vladimir Dronnikov', email: 'dronnikov@gmail.com' },
+silly testEngine      { name: 'Einar Otto Stangvik', email: 'einaros@gmail.com' } ],
+silly testEngine   repository: 
+silly testEngine    { type: 'git',
+silly testEngine      url: 'git://github.com/LearnBoost/socket.io.git' },
+silly testEngine   dependencies: 
+silly testEngine    { 'socket.io-client': '0.9.8',
+silly testEngine      policyfile: '0.0.4',
+silly testEngine      redis: '0.7.2' },
+silly testEngine   devDependencies: 
+silly testEngine    { expresso: '0.9.2',
+silly testEngine      should: '*',
+silly testEngine      benchmark: '0.2.2',
+silly testEngine      microtime: '0.1.3-1',
+silly testEngine      colors: '0.5.1' },
+silly testEngine   main: 'index',
+silly testEngine   engines: { node: '>= 0.4.0' },
+silly testEngine   scripts: { test: 'make test' },
+silly testEngine   _id: 'socket.io@0.9.8',
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.106',
+silly testEngine   _nodeVersion: 'v0.5.11-pre',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /home/lhk/Desktop/node_modules/socket.io/package.json
+verbose loadDefaults socket.io@0.9.8
+verbose into /home/lhk/Desktop [ 'jitsu' ]
+verbose cache add jitsu
+verbose cache add [ 'jitsu', null ]
+silly cache add: name, spec, args [ undefined, 'jitsu', [ 'jitsu', null ] ]
+verbose parsed url { pathname: 'jitsu', path: 'jitsu', href: 'jitsu' }
+info addNamed [ 'jitsu', '' ]
+verbose addNamed [ null, '' ]
+verbose GET jitsu
+verbose raw, before any munging jitsu
+verbose url resolving [ 'https://registry.npmjs.org/', './jitsu' ]
+verbose url resolved https://registry.npmjs.org/jitsu
+verbose etag "BZD9LFRHB8QONUUH8T73K74UQ"
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"BZD9LFRHB8QONUUH8T73K74UQ"',
+silly get cb     date: 'Thu, 26 Jul 2012 21:14:22 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag jitsu from cache
+verbose GET jitsu/0.9.5
+verbose raw, before any munging jitsu/0.9.5
+verbose url resolving [ 'https://registry.npmjs.org/', './jitsu/0.9.5' ]
+verbose url resolved https://registry.npmjs.org/jitsu/0.9.5
+verbose etag "BZD9LFRHB8QONUUH8T73K74UQ"
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"BZD9LFRHB8QONUUH8T73K74UQ"',
+silly get cb     date: 'Thu, 26 Jul 2012 21:14:23 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag jitsu/0.9.5 from cache
+verbose bin dist [ null,
+verbose bin dist   { shasum: '6a8f92d37287ae41106169133f1f7d3f6b6dec81',
+verbose bin dist     tarball: 'http://registry.npmjs.org/jitsu/-/jitsu-0.9.5.tgz' } ]
+silly testEngine { name: 'jitsu',
+silly testEngine   description: 'Flawless command line deployment of your Node.js apps to the cloud',
+silly testEngine   keywords: 
+silly testEngine    [ 'cli',
+silly testEngine      'nodejitsu',
+silly testEngine      'cloud hosting',
+silly testEngine      'platform-as-a-service',
+silly testEngine      'deployment' ],
+silly testEngine   version: '0.9.5',
+silly testEngine   author: { name: 'Nodejitsu Inc.', email: 'info@nodejitsu.com' },
+silly testEngine   maintainers: 
+silly testEngine    [ { name: 'AvianFlu', email: 'avianflu@nodejitsu.com' },
+silly testEngine      { name: 'Marak', email: 'marak@nodejitsu.com' } ],
+silly testEngine   repository: { type: 'git', url: 'git://github.com/nodejitsu/jitsu.git' },
+silly testEngine   preferGlobal: true,
+silly testEngine   dependencies: 
+silly testEngine    { colors: '0.6.0-1',
+silly testEngine      complete: '0.3.1',
+silly testEngine      dateformat: '1.0.2-1.2.3',
+silly testEngine      flatiron: '0.2.5',
+silly testEngine      'flatiron-cli-config': '0.1.3',
+silly testEngine      'flatiron-cli-users': '0.1.1',
+silly testEngine      fstream: '0.1.18',
+silly testEngine      'fstream-npm': '0.1.0',
+silly testEngine      npm: '1.1.16',
+silly testEngine      'nodejitsu-api': '0.3.1',
+silly testEngine      pkginfo: '0.2.3',
+silly testEngine      request: '2.9.100',
+silly testEngine      'require-analyzer': '0.4.0-3',
+silly testEngine      'spawn-command': '0.0.1',
+silly testEngine      semver: '1.0.13',
+silly testEngine      tar: '0.1.13',
+silly testEngine      wizard: '0.0.1' },
+silly testEngine   devDependencies: { nock: '0.8.x', vows: '0.6.x' },
+silly testEngine   bin: { jitsu: './bin/jitsu' },
+silly testEngine   main: './lib/jitsu',
+silly testEngine   scripts: { test: 'vows test/commands/*-test.js --spec' },
+silly testEngine   engines: { node: '>= 0.4.0' },
+silly testEngine   _id: 'jitsu@0.9.5',
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.106',
+silly testEngine   _nodeVersion: 'v0.5.11-pre',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /home/lhk/.npm/jitsu/0.9.5/package/package.json
+verbose loadDefaults jitsu@0.9.5
+silly resolved [ { name: 'jitsu',
+silly resolved     description: 'Flawless command line deployment of your Node.js apps to the cloud',
+silly resolved     keywords: 
+silly resolved      [ 'cli',
+silly resolved        'nodejitsu',
+silly resolved        'cloud hosting',
+silly resolved        'platform-as-a-service',
+silly resolved        'deployment' ],
+silly resolved     version: '0.9.5',
+silly resolved     author: { name: 'Nodejitsu Inc.', email: 'info@nodejitsu.com' },
+silly resolved     maintainers: 
+silly resolved      [ { name: 'AvianFlu', email: 'avianflu@nodejitsu.com' },
+silly resolved        { name: 'Marak', email: 'marak@nodejitsu.com' } ],
+silly resolved     repository: { type: 'git', url: 'git://github.com/nodejitsu/jitsu.git' },
+silly resolved     preferGlobal: true,
+silly resolved     dependencies: 
+silly resolved      { colors: '0.6.0-1',
+silly resolved        complete: '0.3.1',
+silly resolved        dateformat: '1.0.2-1.2.3',
+silly resolved        flatiron: '0.2.5',
+silly resolved        'flatiron-cli-config': '0.1.3',
+silly resolved        'flatiron-cli-users': '0.1.1',
+silly resolved        fstream: '0.1.18',
+silly resolved        'fstream-npm': '0.1.0',
+silly resolved        npm: '1.1.16',
+silly resolved        'nodejitsu-api': '0.3.1',
+silly resolved        pkginfo: '0.2.3',
+silly resolved        request: '2.9.100',
+silly resolved        'require-analyzer': '0.4.0-3',
+silly resolved        'spawn-command': '0.0.1',
+silly resolved        semver: '1.0.13',
+silly resolved        tar: '0.1.13',
+silly resolved        wizard: '0.0.1' },
+silly resolved     devDependencies: { nock: '0.8.x', vows: '0.6.x' },
+silly resolved     bin: { jitsu: './bin/jitsu' },
+silly resolved     main: './lib/jitsu',
+silly resolved     scripts: { test: 'vows test/commands/*-test.js --spec' },
+silly resolved     engines: { node: '>= 0.4.0' },
+silly resolved     _id: 'jitsu@0.9.5',
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.0.106',
+silly resolved     _nodeVersion: 'v0.5.11-pre',
+silly resolved     _defaultsLoaded: true } ]
+info into /home/lhk/Desktop jitsu@0.9.5
+info installOne jitsu@0.9.5
+info unbuild /home/lhk/Desktop/node_modules/jitsu
+verbose from cache /home/lhk/.npm/jitsu/0.9.5/package/package.json
+verbose mkdir (expected) error ENOENT, No such file or directory '/home/lhk/Desktop/node_modules/___jitsu.npm'
+verbose mkdir done: /home/lhk/Desktop/node_modules/___jitsu.npm 755
+verbose unpack_ uid, gid [ 1000, 1000 ]
+verbose unpackTarget /home/lhk/Desktop/node_modules/jitsu
+silly gunzTarPerm modes [ '755', '644' ]
+silly spawning [ 'tar',
+silly spawning   [ '-zmvxpf', '/home/lhk/.npm/jitsu/0.9.5/package.tgz', '-o' ],
+silly spawning   '/home/lhk/Desktop/node_modules/___jitsu.npm' ]
+silly tar out package/README.md
+silly tar out package/package.json
+silly tar out package/.npmignore
+silly tar out package/.travis.yml
+silly tar out package/assets/jitsu.png
+silly tar out package/assets/login.png
+silly tar out package/bin/jitsu
+silly tar out package/docs/jitsu.html
+silly tar out package/docs/docco.css
+silly tar out package/docs/jitsu/package.html
+silly tar out package/docs/jitsu/commands.html
+silly tar out package/docs/jitsu/config.html
+silly tar out package/docs/jitsu/properties.html
+silly tar out package/docs/jitsu/utils/index.html
+silly tar out package/docs/jitsu/utils/base64.html
+silly tar out package/docs/jitsu/api/users.html
+silly tar out package/docs/jitsu/api/snapshots.html
+silly tar out package/docs/jitsu/api/client.html
+silly tar out package/docs/jitsu/api/apps.html
+silly tar out package/docs/jitsu/commands/users.html
+silly tar out package/docs/jitsu/commands/package.html
+silly tar out package/docs/jitsu/commands/snapshots.html
+silly tar out package/docs/jitsu/commands/config.html
+silly tar out package/docs/jitsu/commands/apps.html
+silly tar out package/docs/jitsu/commands/help.html
+silly tar out package/lib/jitsu.js
+silly tar out package/lib/jitsu/package.js
+silly tar out package/lib/jitsu/commands.js
+silly tar out package/lib/jitsu/completion.js
+silly tar out package/lib/jitsu/alias.js
+silly tar out package/lib/jitsu/config.js
+silly tar out package/lib/jitsu/usage.js
+silly tar out package/lib/jitsu/properties.js
+silly tar out package/lib/jitsu/common/index.js
+silly tar out package/lib/jitsu/common/logfile.js
+silly tar out package/lib/jitsu/commands/databases.js
+silly tar out package/lib/jitsu/commands/users.js
+silly tar out package/lib/jitsu/commands/package.js
+silly tar out package/lib/jitsu/commands/wizard.js
+silly tar out package/lib/jitsu/commands/apps.js
+silly tar out package/lib/jitsu/commands/install.js
+silly tar out package/lib/jitsu/commands/snapshots.js
+silly tar out package/lib/jitsu/commands/env.js
+silly tar out package/lib/jitsu/commands/logs.js
+silly tar out package/test/helpers/macros.js
+silly tar out package/test/commands/bad-test.js
+silly tar out package/test/commands/no-colors-test.js
+silly tar out package/test/commands/package-test.js
+silly tar out package/test/commands/users-test.js
+silly tar out package/test/commands/databases-test.js
+silly tar out package/test/commands/snapshots-test.js
+silly tar out package/test/commands/logs-test.js
+silly tar out package/test/commands/apps-test.js
+silly tar out package/test/commands/env-test.js
+silly tar out package/test/fixtures/dot-jitsuconf
+silly tar out package/test/fixtures/logged-out-jitsuconf
+silly tar out package/test/fixtures/example-app/package.json
+silly tar out package/test/fixtures/example-app/server.js
+silly tar exit 0
+silly asyncMap in gTP /home/lhk/Desktop/node_modules/___jitsu.npm/package
+silly asyncMap in gTP /home/lhk/Desktop/node_modules/___jitsu.npm/package/README.md
+silly asyncMap in gTP /home/lhk/Desktop/node_modules/___jitsu.npm/package/package.json
+silly asyncMap in gTP /home/lhk/Desktop/node_modules/___jitsu.npm/package/.npmignore
+silly asyncMap in gTP /home/lhk/Desktop/node_modules/___jitsu.npm/package/.travis.yml
+silly asyncMap in gTP /home/lhk/Desktop/node_modules/___jitsu.npm/package/bin
+silly asyncMap in gTP /home/lhk/Desktop/node_modules/___jitsu.npm/package/bin/jitsu
+silly asyncMap in gTP /home/lhk/Desktop/node_modules/___jitsu.npm/package/assets
+silly asyncMap in gTP /home/lhk/Desktop/node_modules/___jitsu.npm/package/assets/jitsu.png
+silly asyncMap in gTP /home/lhk/Desktop/node_modules/___jitsu.npm/package/assets/login.png
+silly asyncMap in gTP /home/lhk/Desktop/node_modules/___jitsu.npm/package/test
+silly asyncMap in gTP /home/lhk/Desktop/node_modules/___jitsu.npm/package/test/helpers
+silly asyncMap in gTP /home/lhk/Desktop/node_modules/___jitsu.npm/package/test/helpers/macros.js
+silly asyncMap in gTP /home/lhk/Desktop/node_modules/___jitsu.npm/package/test/commands
+silly asyncMap in gTP /home/lhk/Desktop/node_modules/___jitsu.npm/package/test/commands/no-colors-test.js
+silly asyncMap in gTP /home/lhk/Desktop/node_modules/___jitsu.npm/package/test/commands/bad-test.js
+silly asyncMap in gTP /home/lhk/Desktop/node_modules/___jitsu.npm/package/test/commands/package-test.js
+silly asyncMap in gTP /home/lhk/Desktop/node_modules/___jitsu.npm/package/test/commands/users-test.js
+silly asyncMap in gTP /home/lhk/Desktop/node_modules/___jitsu.npm/package/test/commands/databases-test.js
+silly asyncMap in gTP /home/lhk/Desktop/node_modules/___jitsu.npm/package/test/commands/snapshots-test.js
+silly asyncMap in gTP /home/lhk/Desktop/node_modules/___jitsu.npm/package/test/commands/logs-test.js
+silly asyncMap in gTP /home/lhk/Desktop/node_modules/___jitsu.npm/package/test/commands/apps-test.js
+silly asyncMap in gTP /home/lhk/Desktop/node_modules/___jitsu.npm/package/test/commands/env-test.js
+silly asyncMap in gTP /home/lhk/Desktop/node_modules/___jitsu.npm/package/test/fixtures
+silly asyncMap in gTP /home/lhk/Desktop/node_modules/___jitsu.npm/package/test/fixtures/dot-jitsuconf
+silly asyncMap in gTP /home/lhk/Desktop/node_modules/___jitsu.npm/package/test/fixtures/logged-out-jitsuconf
+silly asyncMap in gTP /home/lhk/Desktop/node_modules/___jitsu.npm/package/test/fixtures/example-app
+silly asyncMap in gTP /home/lhk/Desktop/node_modules/___jitsu.npm/package/test/fixtures/example-app/package.json
+silly asyncMap in gTP /home/lhk/Desktop/node_modules/___jitsu.npm/package/test/fixtures/example-app/server.js
+silly asyncMap in gTP /home/lhk/Desktop/node_modules/___jitsu.npm/package/docs
+silly asyncMap in gTP /home/lhk/Desktop/node_modules/___jitsu.npm/package/docs/jitsu.html
+silly asyncMap in gTP /home/lhk/Desktop/node_modules/___jitsu.npm/package/docs/docco.css
+silly asyncMap in gTP /home/lhk/Desktop/node_modules/___jitsu.npm/package/docs/jitsu
+silly asyncMap in gTP /home/lhk/Desktop/node_modules/___jitsu.npm/package/docs/jitsu/package.html
+silly asyncMap in gTP /home/lhk/Desktop/node_modules/___jitsu.npm/package/docs/jitsu/commands.html
+silly asyncMap in gTP /home/lhk/Desktop/node_modules/___jitsu.npm/package/docs/jitsu/config.html
+silly asyncMap in gTP /home/lhk/Desktop/node_modules/___jitsu.npm/package/docs/jitsu/properties.html
+silly asyncMap in gTP /home/lhk/Desktop/node_modules/___jitsu.npm/package/docs/jitsu/utils
+silly asyncMap in gTP /home/lhk/Desktop/node_modules/___jitsu.npm/package/docs/jitsu/utils/index.html
+silly asyncMap in gTP /home/lhk/Desktop/node_modules/___jitsu.npm/package/docs/jitsu/utils/base64.html
+silly asyncMap in gTP /home/lhk/Desktop/node_modules/___jitsu.npm/package/docs/jitsu/api
+silly asyncMap in gTP /home/lhk/Desktop/node_modules/___jitsu.npm/package/docs/jitsu/api/users.html
+silly asyncMap in gTP /home/lhk/Desktop/node_modules/___jitsu.npm/package/docs/jitsu/api/snapshots.html
+silly asyncMap in gTP /home/lhk/Desktop/node_modules/___jitsu.npm/package/docs/jitsu/api/client.html
+silly asyncMap in gTP /home/lhk/Desktop/node_modules/___jitsu.npm/package/docs/jitsu/api/apps.html
+silly asyncMap in gTP /home/lhk/Desktop/node_modules/___jitsu.npm/package/docs/jitsu/commands
+silly asyncMap in gTP /home/lhk/Desktop/node_modules/___jitsu.npm/package/docs/jitsu/commands/users.html
+silly asyncMap in gTP /home/lhk/Desktop/node_modules/___jitsu.npm/package/docs/jitsu/commands/package.html
+silly asyncMap in gTP /home/lhk/Desktop/node_modules/___jitsu.npm/package/docs/jitsu/commands/snapshots.html
+silly asyncMap in gTP /home/lhk/Desktop/node_modules/___jitsu.npm/package/docs/jitsu/commands/config.html
+silly asyncMap in gTP /home/lhk/Desktop/node_modules/___jitsu.npm/package/docs/jitsu/commands/help.html
+silly asyncMap in gTP /home/lhk/Desktop/node_modules/___jitsu.npm/package/docs/jitsu/commands/apps.html
+silly asyncMap in gTP /home/lhk/Desktop/node_modules/___jitsu.npm/package/lib
+silly asyncMap in gTP /home/lhk/Desktop/node_modules/___jitsu.npm/package/lib/jitsu.js
+silly asyncMap in gTP /home/lhk/Desktop/node_modules/___jitsu.npm/package/lib/jitsu
+silly asyncMap in gTP /home/lhk/Desktop/node_modules/___jitsu.npm/package/lib/jitsu/package.js
+silly asyncMap in gTP /home/lhk/Desktop/node_modules/___jitsu.npm/package/lib/jitsu/commands.js
+silly asyncMap in gTP /home/lhk/Desktop/node_modules/___jitsu.npm/package/lib/jitsu/completion.js
+silly asyncMap in gTP /home/lhk/Desktop/node_modules/___jitsu.npm/package/lib/jitsu/alias.js
+silly asyncMap in gTP /home/lhk/Desktop/node_modules/___jitsu.npm/package/lib/jitsu/config.js
+silly asyncMap in gTP /home/lhk/Desktop/node_modules/___jitsu.npm/package/lib/jitsu/usage.js
+silly asyncMap in gTP /home/lhk/Desktop/node_modules/___jitsu.npm/package/lib/jitsu/properties.js
+silly asyncMap in gTP /home/lhk/Desktop/node_modules/___jitsu.npm/package/lib/jitsu/common
+silly asyncMap in gTP /home/lhk/Desktop/node_modules/___jitsu.npm/package/lib/jitsu/common/index.js
+silly asyncMap in gTP /home/lhk/Desktop/node_modules/___jitsu.npm/package/lib/jitsu/common/logfile.js
+silly asyncMap in gTP /home/lhk/Desktop/node_modules/___jitsu.npm/package/lib/jitsu/commands
+silly asyncMap in gTP /home/lhk/Desktop/node_modules/___jitsu.npm/package/lib/jitsu/commands/databases.js
+silly asyncMap in gTP /home/lhk/Desktop/node_modules/___jitsu.npm/package/lib/jitsu/commands/users.js
+silly asyncMap in gTP /home/lhk/Desktop/node_modules/___jitsu.npm/package/lib/jitsu/commands/package.js
+silly asyncMap in gTP /home/lhk/Desktop/node_modules/___jitsu.npm/package/lib/jitsu/commands/wizard.js
+silly asyncMap in gTP /home/lhk/Desktop/node_modules/___jitsu.npm/package/lib/jitsu/commands/apps.js
+silly asyncMap in gTP /home/lhk/Desktop/node_modules/___jitsu.npm/package/lib/jitsu/commands/install.js
+silly asyncMap in gTP /home/lhk/Desktop/node_modules/___jitsu.npm/package/lib/jitsu/commands/snapshots.js
+silly asyncMap in gTP /home/lhk/Desktop/node_modules/___jitsu.npm/package/lib/jitsu/commands/env.js
+silly asyncMap in gTP /home/lhk/Desktop/node_modules/___jitsu.npm/package/lib/jitsu/commands/logs.js
+verbose gunzed /home/lhk/Desktop/node_modules/___jitsu.npm/package
+verbose rm'ed /home/lhk/Desktop/node_modules/jitsu
+verbose renamed [ '/home/lhk/Desktop/node_modules/___jitsu.npm/package',
+verbose renamed   '/home/lhk/Desktop/node_modules/jitsu' ]
+silly testEngine { name: 'jitsu',
+silly testEngine   description: 'Flawless command line deployment of your Node.js apps to the cloud',
+silly testEngine   keywords: 
+silly testEngine    [ 'cli',
+silly testEngine      'nodejitsu',
+silly testEngine      'cloud hosting',
+silly testEngine      'platform-as-a-service',
+silly testEngine      'deployment' ],
+silly testEngine   version: '0.9.5',
+silly testEngine   author: { name: 'Nodejitsu Inc.', email: 'info@nodejitsu.com' },
+silly testEngine   maintainers: 
+silly testEngine    [ { name: 'AvianFlu', email: 'avianflu@nodejitsu.com' },
+silly testEngine      { name: 'Marak', email: 'marak@nodejitsu.com' } ],
+silly testEngine   repository: { type: 'git', url: 'git://github.com/nodejitsu/jitsu.git' },
+silly testEngine   preferGlobal: true,
+silly testEngine   dependencies: 
+silly testEngine    { colors: '0.6.0-1',
+silly testEngine      complete: '0.3.1',
+silly testEngine      dateformat: '1.0.2-1.2.3',
+silly testEngine      flatiron: '0.2.5',
+silly testEngine      'flatiron-cli-config': '0.1.3',
+silly testEngine      'flatiron-cli-users': '0.1.1',
+silly testEngine      fstream: '0.1.18',
+silly testEngine      'fstream-npm': '0.1.0',
+silly testEngine      npm: '1.1.16',
+silly testEngine      'nodejitsu-api': '0.3.1',
+silly testEngine      pkginfo: '0.2.3',
+silly testEngine      request: '2.9.100',
+silly testEngine      'require-analyzer': '0.4.0-3',
+silly testEngine      'spawn-command': '0.0.1',
+silly testEngine      semver: '1.0.13',
+silly testEngine      tar: '0.1.13',
+silly testEngine      wizard: '0.0.1' },
+silly testEngine   devDependencies: { nock: '0.8.x', vows: '0.6.x' },
+silly testEngine   bin: { jitsu: './bin/jitsu' },
+silly testEngine   main: './lib/jitsu',
+silly testEngine   scripts: { test: 'vows test/commands/*-test.js --spec' },
+silly testEngine   engines: { node: '>= 0.4.0' },
+silly testEngine   _id: 'jitsu@0.9.5',
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.106',
+silly testEngine   _nodeVersion: 'v0.5.11-pre',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /home/lhk/Desktop/node_modules/jitsu/package.json
+verbose loadDefaults jitsu@0.9.5
+info preinstall jitsu@0.9.5
+verbose from cache /home/lhk/Desktop/node_modules/jitsu/package.json
+verbose into /home/lhk/Desktop/node_modules/jitsu [ 'colors@0.6.0-1',
+verbose into /home/lhk/Desktop/node_modules/jitsu   'complete@0.3.1',
+verbose into /home/lhk/Desktop/node_modules/jitsu   'dateformat@1.0.2-1.2.3',
+verbose into /home/lhk/Desktop/node_modules/jitsu   'flatiron@0.2.5',
+verbose into /home/lhk/Desktop/node_modules/jitsu   'flatiron-cli-config@0.1.3',
+verbose into /home/lhk/Desktop/node_modules/jitsu   'flatiron-cli-users@0.1.1',
+verbose into /home/lhk/Desktop/node_modules/jitsu   'fstream@0.1.18',
+verbose into /home/lhk/Desktop/node_modules/jitsu   'fstream-npm@0.1.0',
+verbose into /home/lhk/Desktop/node_modules/jitsu   'npm@1.1.16',
+verbose into /home/lhk/Desktop/node_modules/jitsu   'nodejitsu-api@0.3.1',
+verbose into /home/lhk/Desktop/node_modules/jitsu   'pkginfo@0.2.3',
+verbose into /home/lhk/Desktop/node_modules/jitsu   'request@2.9.100',
+verbose into /home/lhk/Desktop/node_modules/jitsu   'require-analyzer@0.4.0-3',
+verbose into /home/lhk/Desktop/node_modules/jitsu   'spawn-command@0.0.1',
+verbose into /home/lhk/Desktop/node_modules/jitsu   'semver@1.0.13',
+verbose into /home/lhk/Desktop/node_modules/jitsu   'tar@0.1.13',
+verbose into /home/lhk/Desktop/node_modules/jitsu   'wizard@0.0.1' ]
+verbose cache add colors@0.6.0-1
+verbose cache add [ 'colors@0.6.0-1', null ]
+silly cache add: name, spec, args [ undefined, 'colors@0.6.0-1', [ 'colors@0.6.0-1', null ] ]
+verbose parsed url { pathname: 'colors@0.6.0-1',
+verbose parsed url   path: 'colors@0.6.0-1',
+verbose parsed url   href: 'colors@0.6.0-1' }
+silly cache add: name, spec, args [ 'colors', '0.6.0-1', [ 'colors', '0.6.0-1' ] ]
+verbose parsed url { pathname: '0.6.0-1', path: '0.6.0-1', href: '0.6.0-1' }
+info addNamed [ 'colors', '0.6.0-1' ]
+verbose addNamed [ '0.6.0-1', '0.6.0-1' ]
+verbose cache add complete@0.3.1
+verbose cache add [ 'complete@0.3.1', null ]
+silly cache add: name, spec, args [ undefined, 'complete@0.3.1', [ 'complete@0.3.1', null ] ]
+verbose parsed url { pathname: 'complete@0.3.1',
+verbose parsed url   path: 'complete@0.3.1',
+verbose parsed url   href: 'complete@0.3.1' }
+silly cache add: name, spec, args [ 'complete', '0.3.1', [ 'complete', '0.3.1' ] ]
+verbose parsed url { pathname: '0.3.1', path: '0.3.1', href: '0.3.1' }
+info addNamed [ 'complete', '0.3.1' ]
+verbose addNamed [ '0.3.1', '0.3.1' ]
+verbose cache add dateformat@1.0.2-1.2.3
+verbose cache add [ 'dateformat@1.0.2-1.2.3', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'dateformat@1.0.2-1.2.3',
+silly cache add: name, spec, args   [ 'dateformat@1.0.2-1.2.3', null ] ]
+verbose parsed url { pathname: 'dateformat@1.0.2-1.2.3',
+verbose parsed url   path: 'dateformat@1.0.2-1.2.3',
+verbose parsed url   href: 'dateformat@1.0.2-1.2.3' }
+silly cache add: name, spec, args [ 'dateformat', '1.0.2-1.2.3', [ 'dateformat', '1.0.2-1.2.3' ] ]
+verbose parsed url { pathname: '1.0.2-1.2.3',
+verbose parsed url   path: '1.0.2-1.2.3',
+verbose parsed url   href: '1.0.2-1.2.3' }
+info addNamed [ 'dateformat', '1.0.2-1.2.3' ]
+verbose addNamed [ '1.0.2-1.2.3', '1.0.2-1.2.3' ]
+verbose cache add flatiron@0.2.5
+verbose cache add [ 'flatiron@0.2.5', null ]
+silly cache add: name, spec, args [ undefined, 'flatiron@0.2.5', [ 'flatiron@0.2.5', null ] ]
+verbose parsed url { pathname: 'flatiron@0.2.5',
+verbose parsed url   path: 'flatiron@0.2.5',
+verbose parsed url   href: 'flatiron@0.2.5' }
+silly cache add: name, spec, args [ 'flatiron', '0.2.5', [ 'flatiron', '0.2.5' ] ]
+verbose parsed url { pathname: '0.2.5', path: '0.2.5', href: '0.2.5' }
+info addNamed [ 'flatiron', '0.2.5' ]
+verbose addNamed [ '0.2.5', '0.2.5' ]
+verbose cache add flatiron-cli-config@0.1.3
+verbose cache add [ 'flatiron-cli-config@0.1.3', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'flatiron-cli-config@0.1.3',
+silly cache add: name, spec, args   [ 'flatiron-cli-config@0.1.3', null ] ]
+verbose parsed url { pathname: 'flatiron-cli-config@0.1.3',
+verbose parsed url   path: 'flatiron-cli-config@0.1.3',
+verbose parsed url   href: 'flatiron-cli-config@0.1.3' }
+silly cache add: name, spec, args [ 'flatiron-cli-config',
+silly cache add: name, spec, args   '0.1.3',
+silly cache add: name, spec, args   [ 'flatiron-cli-config', '0.1.3' ] ]
+verbose parsed url { pathname: '0.1.3', path: '0.1.3', href: '0.1.3' }
+info addNamed [ 'flatiron-cli-config', '0.1.3' ]
+verbose addNamed [ '0.1.3', '0.1.3' ]
+verbose cache add flatiron-cli-users@0.1.1
+verbose cache add [ 'flatiron-cli-users@0.1.1', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'flatiron-cli-users@0.1.1',
+silly cache add: name, spec, args   [ 'flatiron-cli-users@0.1.1', null ] ]
+verbose parsed url { pathname: 'flatiron-cli-users@0.1.1',
+verbose parsed url   path: 'flatiron-cli-users@0.1.1',
+verbose parsed url   href: 'flatiron-cli-users@0.1.1' }
+silly cache add: name, spec, args [ 'flatiron-cli-users',
+silly cache add: name, spec, args   '0.1.1',
+silly cache add: name, spec, args   [ 'flatiron-cli-users', '0.1.1' ] ]
+verbose parsed url { pathname: '0.1.1', path: '0.1.1', href: '0.1.1' }
+info addNamed [ 'flatiron-cli-users', '0.1.1' ]
+verbose addNamed [ '0.1.1', '0.1.1' ]
+verbose cache add fstream@0.1.18
+verbose cache add [ 'fstream@0.1.18', null ]
+silly cache add: name, spec, args [ undefined, 'fstream@0.1.18', [ 'fstream@0.1.18', null ] ]
+verbose parsed url { pathname: 'fstream@0.1.18',
+verbose parsed url   path: 'fstream@0.1.18',
+verbose parsed url   href: 'fstream@0.1.18' }
+silly cache add: name, spec, args [ 'fstream', '0.1.18', [ 'fstream', '0.1.18' ] ]
+verbose parsed url { pathname: '0.1.18', path: '0.1.18', href: '0.1.18' }
+info addNamed [ 'fstream', '0.1.18' ]
+verbose addNamed [ '0.1.18', '0.1.18' ]
+verbose GET colors/0.6.0-1
+verbose raw, before any munging colors/0.6.0-1
+verbose url resolving [ 'https://registry.npmjs.org/', './colors/0.6.0-1' ]
+verbose url resolved https://registry.npmjs.org/colors/0.6.0-1
+verbose etag "B1CSSJJMGQ7D44VNID5LFXOCG"
+verbose GET complete/0.3.1
+verbose raw, before any munging complete/0.3.1
+verbose url resolving [ 'https://registry.npmjs.org/', './complete/0.3.1' ]
+verbose url resolved https://registry.npmjs.org/complete/0.3.1
+verbose etag "8V01J8ADQKZXFK9V0UJHT2F6B"
+verbose GET dateformat/1.0.2-1.2.3
+verbose raw, before any munging dateformat/1.0.2-1.2.3
+verbose url resolving [ 'https://registry.npmjs.org/', './dateformat/1.0.2-1.2.3' ]
+verbose url resolved https://registry.npmjs.org/dateformat/1.0.2-1.2.3
+verbose etag "563VU6G2TF7WPT52WC7KRUKNL"
+verbose cache add npm@1.1.16
+verbose cache add [ 'npm@1.1.16', null ]
+silly cache add: name, spec, args [ undefined, 'npm@1.1.16', [ 'npm@1.1.16', null ] ]
+verbose parsed url { pathname: 'npm@1.1.16',
+verbose parsed url   path: 'npm@1.1.16',
+verbose parsed url   href: 'npm@1.1.16' }
+silly cache add: name, spec, args [ 'npm', '1.1.16', [ 'npm', '1.1.16' ] ]
+verbose parsed url { pathname: '1.1.16', path: '1.1.16', href: '1.1.16' }
+info addNamed [ 'npm', '1.1.16' ]
+verbose addNamed [ '1.1.16', '1.1.16' ]
+verbose cache add nodejitsu-api@0.3.1
+verbose cache add [ 'nodejitsu-api@0.3.1', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'nodejitsu-api@0.3.1',
+silly cache add: name, spec, args   [ 'nodejitsu-api@0.3.1', null ] ]
+verbose parsed url { pathname: 'nodejitsu-api@0.3.1',
+verbose parsed url   path: 'nodejitsu-api@0.3.1',
+verbose parsed url   href: 'nodejitsu-api@0.3.1' }
+silly cache add: name, spec, args [ 'nodejitsu-api', '0.3.1', [ 'nodejitsu-api', '0.3.1' ] ]
+verbose parsed url { pathname: '0.3.1', path: '0.3.1', href: '0.3.1' }
+info addNamed [ 'nodejitsu-api', '0.3.1' ]
+verbose addNamed [ '0.3.1', '0.3.1' ]
+verbose cache add fstream-npm@0.1.0
+verbose cache add [ 'fstream-npm@0.1.0', null ]
+silly cache add: name, spec, args [ undefined, 'fstream-npm@0.1.0', [ 'fstream-npm@0.1.0', null ] ]
+verbose parsed url { pathname: 'fstream-npm@0.1.0',
+verbose parsed url   path: 'fstream-npm@0.1.0',
+verbose parsed url   href: 'fstream-npm@0.1.0' }
+silly cache add: name, spec, args [ 'fstream-npm', '0.1.0', [ 'fstream-npm', '0.1.0' ] ]
+verbose parsed url { pathname: '0.1.0', path: '0.1.0', href: '0.1.0' }
+info addNamed [ 'fstream-npm', '0.1.0' ]
+verbose addNamed [ '0.1.0', '0.1.0' ]
+verbose cache add pkginfo@0.2.3
+verbose cache add [ 'pkginfo@0.2.3', null ]
+silly cache add: name, spec, args [ undefined, 'pkginfo@0.2.3', [ 'pkginfo@0.2.3', null ] ]
+verbose parsed url { pathname: 'pkginfo@0.2.3',
+verbose parsed url   path: 'pkginfo@0.2.3',
+verbose parsed url   href: 'pkginfo@0.2.3' }
+silly cache add: name, spec, args [ 'pkginfo', '0.2.3', [ 'pkginfo', '0.2.3' ] ]
+verbose parsed url { pathname: '0.2.3', path: '0.2.3', href: '0.2.3' }
+info addNamed [ 'pkginfo', '0.2.3' ]
+verbose addNamed [ '0.2.3', '0.2.3' ]
+verbose cache add request@2.9.100
+verbose cache add [ 'request@2.9.100', null ]
+silly cache add: name, spec, args [ undefined, 'request@2.9.100', [ 'request@2.9.100', null ] ]
+verbose parsed url { pathname: 'request@2.9.100',
+verbose parsed url   path: 'request@2.9.100',
+verbose parsed url   href: 'request@2.9.100' }
+silly cache add: name, spec, args [ 'request', '2.9.100', [ 'request', '2.9.100' ] ]
+verbose parsed url { pathname: '2.9.100', path: '2.9.100', href: '2.9.100' }
+info addNamed [ 'request', '2.9.100' ]
+verbose addNamed [ '2.9.100', '2.9.100' ]
+verbose cache add require-analyzer@0.4.0-3
+verbose cache add [ 'require-analyzer@0.4.0-3', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'require-analyzer@0.4.0-3',
+silly cache add: name, spec, args   [ 'require-analyzer@0.4.0-3', null ] ]
+verbose parsed url { pathname: 'require-analyzer@0.4.0-3',
+verbose parsed url   path: 'require-analyzer@0.4.0-3',
+verbose parsed url   href: 'require-analyzer@0.4.0-3' }
+silly cache add: name, spec, args [ 'require-analyzer',
+silly cache add: name, spec, args   '0.4.0-3',
+silly cache add: name, spec, args   [ 'require-analyzer', '0.4.0-3' ] ]
+verbose parsed url { pathname: '0.4.0-3', path: '0.4.0-3', href: '0.4.0-3' }
+info addNamed [ 'require-analyzer', '0.4.0-3' ]
+verbose addNamed [ '0.4.0-3', '0.4.0-3' ]
+verbose cache add spawn-command@0.0.1
+verbose cache add [ 'spawn-command@0.0.1', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'spawn-command@0.0.1',
+silly cache add: name, spec, args   [ 'spawn-command@0.0.1', null ] ]
+verbose parsed url { pathname: 'spawn-command@0.0.1',
+verbose parsed url   path: 'spawn-command@0.0.1',
+verbose parsed url   href: 'spawn-command@0.0.1' }
+silly cache add: name, spec, args [ 'spawn-command', '0.0.1', [ 'spawn-command', '0.0.1' ] ]
+verbose parsed url { pathname: '0.0.1', path: '0.0.1', href: '0.0.1' }
+info addNamed [ 'spawn-command', '0.0.1' ]
+verbose addNamed [ '0.0.1', '0.0.1' ]
+verbose GET flatiron/0.2.5
+verbose raw, before any munging flatiron/0.2.5
+verbose url resolving [ 'https://registry.npmjs.org/', './flatiron/0.2.5' ]
+verbose url resolved https://registry.npmjs.org/flatiron/0.2.5
+verbose etag "ELBGIL1ZAOPOYXLV2HE6W4P4P"
+verbose GET flatiron-cli-config/0.1.3
+verbose raw, before any munging flatiron-cli-config/0.1.3
+verbose url resolving [ 'https://registry.npmjs.org/', './flatiron-cli-config/0.1.3' ]
+verbose url resolved https://registry.npmjs.org/flatiron-cli-config/0.1.3
+verbose etag "EEQZM5P6D32V3YLI2EAPTXJVJ"
+verbose cache add semver@1.0.13
+verbose cache add [ 'semver@1.0.13', null ]
+silly cache add: name, spec, args [ undefined, 'semver@1.0.13', [ 'semver@1.0.13', null ] ]
+verbose parsed url { pathname: 'semver@1.0.13',
+verbose parsed url   path: 'semver@1.0.13',
+verbose parsed url   href: 'semver@1.0.13' }
+silly cache add: name, spec, args [ 'semver', '1.0.13', [ 'semver', '1.0.13' ] ]
+verbose parsed url { pathname: '1.0.13', path: '1.0.13', href: '1.0.13' }
+info addNamed [ 'semver', '1.0.13' ]
+verbose addNamed [ '1.0.13', '1.0.13' ]
+verbose cache add wizard@0.0.1
+verbose cache add [ 'wizard@0.0.1', null ]
+silly cache add: name, spec, args [ undefined, 'wizard@0.0.1', [ 'wizard@0.0.1', null ] ]
+verbose parsed url { pathname: 'wizard@0.0.1',
+verbose parsed url   path: 'wizard@0.0.1',
+verbose parsed url   href: 'wizard@0.0.1' }
+silly cache add: name, spec, args [ 'wizard', '0.0.1', [ 'wizard', '0.0.1' ] ]
+verbose parsed url { pathname: '0.0.1', path: '0.0.1', href: '0.0.1' }
+info addNamed [ 'wizard', '0.0.1' ]
+verbose addNamed [ '0.0.1', '0.0.1' ]
+verbose cache add tar@0.1.13
+verbose cache add [ 'tar@0.1.13', null ]
+silly cache add: name, spec, args [ undefined, 'tar@0.1.13', [ 'tar@0.1.13', null ] ]
+verbose parsed url { pathname: 'tar@0.1.13',
+verbose parsed url   path: 'tar@0.1.13',
+verbose parsed url   href: 'tar@0.1.13' }
+silly cache add: name, spec, args [ 'tar', '0.1.13', [ 'tar', '0.1.13' ] ]
+verbose parsed url { pathname: '0.1.13', path: '0.1.13', href: '0.1.13' }
+info addNamed [ 'tar', '0.1.13' ]
+verbose addNamed [ '0.1.13', '0.1.13' ]
+verbose GET flatiron-cli-users/0.1.1
+verbose raw, before any munging flatiron-cli-users/0.1.1
+verbose url resolving [ 'https://registry.npmjs.org/', './flatiron-cli-users/0.1.1' ]
+verbose url resolved https://registry.npmjs.org/flatiron-cli-users/0.1.1
+verbose etag "AI2XG89EXKEO7NBT8YKO6M3X4"
+verbose GET fstream/0.1.18
+verbose raw, before any munging fstream/0.1.18
+verbose url resolving [ 'https://registry.npmjs.org/', './fstream/0.1.18' ]
+verbose url resolved https://registry.npmjs.org/fstream/0.1.18
+verbose etag "1D4TNGD4V9WPRP05S7TJ4GA2V"
+verbose GET npm/1.1.16
+verbose raw, before any munging npm/1.1.16
+verbose url resolving [ 'https://registry.npmjs.org/', './npm/1.1.16' ]
+verbose url resolved https://registry.npmjs.org/npm/1.1.16
+verbose etag "CUY42TRGQ3NE2IWMHA9ETT3N1"
+verbose GET nodejitsu-api/0.3.1
+verbose raw, before any munging nodejitsu-api/0.3.1
+verbose url resolving [ 'https://registry.npmjs.org/', './nodejitsu-api/0.3.1' ]
+verbose url resolved https://registry.npmjs.org/nodejitsu-api/0.3.1
+verbose etag "C5XC85K93BC9VRTVPQASDW6K9"
+verbose GET fstream-npm/0.1.0
+verbose raw, before any munging fstream-npm/0.1.0
+verbose url resolving [ 'https://registry.npmjs.org/', './fstream-npm/0.1.0' ]
+verbose url resolved https://registry.npmjs.org/fstream-npm/0.1.0
+verbose etag "607QN56RF89TUCCP85J8Z6QCG"
+verbose GET pkginfo/0.2.3
+verbose raw, before any munging pkginfo/0.2.3
+verbose url resolving [ 'https://registry.npmjs.org/', './pkginfo/0.2.3' ]
+verbose url resolved https://registry.npmjs.org/pkginfo/0.2.3
+verbose etag "7YNOZEMDI29ZWXI9CLOVZKMO3"
+verbose GET request/2.9.100
+verbose raw, before any munging request/2.9.100
+verbose url resolving [ 'https://registry.npmjs.org/', './request/2.9.100' ]
+verbose url resolved https://registry.npmjs.org/request/2.9.100
+verbose etag "N4Q4NWTRYSLV624RKVZBW9ZF"
+verbose GET require-analyzer/0.4.0-3
+verbose raw, before any munging require-analyzer/0.4.0-3
+verbose url resolving [ 'https://registry.npmjs.org/', './require-analyzer/0.4.0-3' ]
+verbose url resolved https://registry.npmjs.org/require-analyzer/0.4.0-3
+verbose etag "EMU57Q0HPT3FPSMUM566695WG"
+verbose GET spawn-command/0.0.1
+verbose raw, before any munging spawn-command/0.0.1
+verbose url resolving [ 'https://registry.npmjs.org/', './spawn-command/0.0.1' ]
+verbose url resolved https://registry.npmjs.org/spawn-command/0.0.1
+verbose etag "CIR6PZ6QBP8ZVFS5BH0Z5A18X"
+verbose GET semver/1.0.13
+verbose raw, before any munging semver/1.0.13
+verbose url resolving [ 'https://registry.npmjs.org/', './semver/1.0.13' ]
+verbose url resolved https://registry.npmjs.org/semver/1.0.13
+verbose etag "6Q9ZNBD0LBNDZHRC0209QECD3"
+verbose GET wizard/0.0.1
+verbose raw, before any munging wizard/0.0.1
+verbose url resolving [ 'https://registry.npmjs.org/', './wizard/0.0.1' ]
+verbose url resolved https://registry.npmjs.org/wizard/0.0.1
+verbose etag "6303CNFMZJ5WAU1S1AKBVZQ6W"
+verbose GET tar/0.1.13
+verbose raw, before any munging tar/0.1.13
+verbose url resolving [ 'https://registry.npmjs.org/', './tar/0.1.13' ]
+verbose url resolved https://registry.npmjs.org/tar/0.1.13
+verbose etag "8Z0DYESJVUCCI6GEK4KZJIZOS"
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"B1CSSJJMGQ7D44VNID5LFXOCG"',
+silly get cb     date: 'Thu, 26 Jul 2012 21:14:24 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag colors/0.6.0-1 from cache
+verbose bin dist [ null,
+verbose bin dist   { shasum: '6dbb68ceb8bc60f2b313dcc5ce1599f06d19e67a',
+verbose bin dist     tarball: 'http://registry.npmjs.org/colors/-/colors-0.6.0-1.tgz' } ]
+silly testEngine { name: 'colors',
+silly testEngine   description: 'get colors in your node.js console like what',
+silly testEngine   version: '0.6.0-1',
+silly testEngine   author: { name: 'Marak Squires' },
+silly testEngine   repository: { type: 'git', url: 'git://github.com/Marak/colors.js.git' },
+silly testEngine   engines: { node: '>=0.1.90' },
+silly testEngine   main: 'colors',
+silly testEngine   _id: 'colors@0.6.0-1',
+silly testEngine   dependencies: {},
+silly testEngine   devDependencies: {},
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.106',
+silly testEngine   _nodeVersion: 'v0.5.11-pre',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /home/lhk/.npm/colors/0.6.0-1/package/package.json
+verbose loadDefaults colors@0.6.0-1
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"563VU6G2TF7WPT52WC7KRUKNL"',
+silly get cb     date: 'Thu, 26 Jul 2012 21:14:24 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag dateformat/1.0.2-1.2.3 from cache
+verbose bin dist [ null,
+verbose bin dist   { shasum: 'b0220c02de98617433b72851cf47de3df2cdbee9',
+verbose bin dist     tarball: 'http://registry.npmjs.org/dateformat/-/dateformat-1.0.2-1.2.3.tgz' } ]
+silly testEngine { name: 'dateformat',
+silly testEngine   description: 'A node.js package for Steven Levithan\'s excellent dateFormat() function.',
+silly testEngine   maintainers: 'Felix Geisendörfer <felix@debuggable.com>',
+silly testEngine   homepage: 'https://github.com/felixge/node-dateformat',
+silly testEngine   author: { name: 'Steven Levithan' },
+silly testEngine   version: '1.0.2-1.2.3',
+silly testEngine   main: './lib/dateformat',
+silly testEngine   dependencies: {},
+silly testEngine   devDependencies: {},
+silly testEngine   engines: { node: '*' },
+silly testEngine   _id: 'dateformat@1.0.2-1.2.3',
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.106',
+silly testEngine   _nodeVersion: 'v0.5.11-pre',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /home/lhk/.npm/dateformat/1.0.2-1.2.3/package/package.json
+verbose loadDefaults dateformat@1.0.2-1.2.3
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"8V01J8ADQKZXFK9V0UJHT2F6B"',
+silly get cb     date: 'Thu, 26 Jul 2012 21:14:24 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag complete/0.3.1 from cache
+verbose bin dist [ null,
+verbose bin dist   { shasum: '9950ac77d1ac4991a9dcc782b33dfae253bf8bda',
+verbose bin dist     tarball: 'http://registry.npmjs.org/complete/-/complete-0.3.1.tgz' } ]
+silly testEngine { name: 'complete',
+silly testEngine   version: '0.3.1',
+silly testEngine   description: 'tab completion for your nodejs CLI program',
+silly testEngine   main: './lib/complete.js',
+silly testEngine   directories: { lib: './lib', example: './example' },
+silly testEngine   repository: { type: 'git', url: 'git://github.com/hij1nx/complete.git' },
+silly testEngine   keywords: 
+silly testEngine    [ 'terminal',
+silly testEngine      'tabs',
+silly testEngine      'unix',
+silly testEngine      'posix',
+silly testEngine      'console',
+silly testEngine      'complete',
+silly testEngine      'completion' ],
+silly testEngine   author: 
+silly testEngine    { name: 'hij1nx',
+silly testEngine      email: 'hij1nx@me.com',
+silly testEngine      url: 'http://www.nodejitsu.com' },
+silly testEngine   maintainers: [ { name: 'hij1nx', email: 'hij1nx@me.com' } ],
+silly testEngine   license: 'MIT',
+silly testEngine   engine: { node: '>=0.4' },
+silly testEngine   _id: 'complete@0.3.1',
+silly testEngine   dependencies: {},
+silly testEngine   devDependencies: {},
+silly testEngine   engines: { node: '*' },
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.106',
+silly testEngine   _nodeVersion: 'v0.5.11-pre',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /home/lhk/.npm/complete/0.3.1/package/package.json
+verbose loadDefaults complete@0.3.1
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"ELBGIL1ZAOPOYXLV2HE6W4P4P"',
+silly get cb     date: 'Thu, 26 Jul 2012 21:14:24 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag flatiron/0.2.5 from cache
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"EEQZM5P6D32V3YLI2EAPTXJVJ"',
+silly get cb     date: 'Thu, 26 Jul 2012 21:14:24 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag flatiron-cli-config/0.1.3 from cache
+verbose bin dist [ null,
+verbose bin dist   { shasum: '61f20db8b2f78d8ff8767d9626f7637ac46dbae2',
+verbose bin dist     tarball: 'http://registry.npmjs.org/flatiron/-/flatiron-0.2.5.tgz' } ]
+verbose bin dist [ null,
+verbose bin dist   { shasum: '06c4b1c8bb2415de68ce54e8109f4160a4035e10',
+verbose bin dist     tarball: 'http://registry.npmjs.org/flatiron-cli-config/-/flatiron-cli-config-0.1.3.tgz' } ]
+silly testEngine { name: 'flatiron',
+silly testEngine   description: 'An elegant blend of convention and configuration for building apps in Node.js and the browser',
+silly testEngine   version: '0.2.5',
+silly testEngine   author: { name: 'Nodejitsu Inc.', email: 'info@nodejitsu.com' },
+silly testEngine   maintainers: 
+silly testEngine    [ { name: 'indexzero', email: 'charlie@nodejitsu.com' },
+silly testEngine      { name: 'AvianFlu', email: 'avianflu@nodejitsu.com' },
+silly testEngine      { name: 'Marak', email: 'marak@nodejitsu.com' } ],
+silly testEngine   repository: { type: 'git', url: 'git://github.com/flatiron/flatiron.git' },
+silly testEngine   dependencies: 
+silly testEngine    { broadway: '0.2.5',
+silly testEngine      optimist: '0.3.4',
+silly testEngine      prompt: '0.2.2',
+silly testEngine      director: '1.1.0',
+silly testEngine      pkginfo: '0.2.3' },
+silly testEngine   devDependencies: 
+silly testEngine    { ecstatic: '0.1.6',
+silly testEngine      request: '2.x.x',
+silly testEngine      resourceful: '0.1.10',
+silly testEngine      union: '0.3.3',
+silly testEngine      vows: '0.6.2' },
+silly testEngine   main: './lib/flatiron',
+silly testEngine   bin: { flatiron: './bin/flatiron' },
+silly testEngine   scripts: { test: 'vows --spec' },
+silly testEngine   engines: { node: '>= 0.4.0' },
+silly testEngine   _id: 'flatiron@0.2.5',
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.106',
+silly testEngine   _nodeVersion: 'v0.5.11-pre',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /home/lhk/.npm/flatiron/0.2.5/package/package.json
+verbose loadDefaults flatiron@0.2.5
+silly testEngine { name: 'flatiron-cli-config',
+silly testEngine   version: '0.1.3',
+silly testEngine   description: 'Encapsulated commands for managing configuration in flatiron CLI apps',
+silly testEngine   author: { name: 'Nodejitsu Inc.', email: 'info@nodejitsu.com' },
+silly testEngine   maintainers: [ { name: 'indexzero', email: 'charlie@nodejitsu.com' } ],
+silly testEngine   repository: 
+silly testEngine    { type: 'git',
+silly testEngine      url: 'git://github.com/flatiron/flatiron-cli-config.git' },
+silly testEngine   peerDependencies: { flatiron: '~0.1.9' },
+silly testEngine   devDependencies: { flatiron: '~0.2.0', 'cli-easy': '0.1.x', vows: '0.6.x' },
+silly testEngine   main: './lib/flatiron-cli-config',
+silly testEngine   scripts: { test: 'vows --spec --isolate' },
+silly testEngine   engines: { node: '>= 0.6.0' },
+silly testEngine   _id: 'flatiron-cli-config@0.1.3',
+silly testEngine   dependencies: {},
+silly testEngine   _engineSupported: false,
+silly testEngine   _npmVersion: '1.0.106',
+silly testEngine   _nodeVersion: 'v0.5.11-pre',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /home/lhk/.npm/flatiron-cli-config/0.1.3/package/package.json
+verbose loadDefaults flatiron-cli-config@0.1.3
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"AI2XG89EXKEO7NBT8YKO6M3X4"',
+silly get cb     date: 'Thu, 26 Jul 2012 21:14:25 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag flatiron-cli-users/0.1.1 from cache
+verbose bin dist [ null,
+verbose bin dist   { shasum: '0e81702cc727dbf56a5547b9b30e9ef9ab14a6a1',
+verbose bin dist     tarball: 'http://registry.npmjs.org/flatiron-cli-users/-/flatiron-cli-users-0.1.1.tgz' } ]
+silly testEngine { name: 'flatiron-cli-users',
+silly testEngine   version: '0.1.1',
+silly testEngine   description: 'Encapsulated commands for managing users in flatiron CLI apps',
+silly testEngine   author: { name: 'Nodejitsu Inc', email: 'info@nodejitsu.com' },
+silly testEngine   contributors: [ { name: 'Charlie Robbins', email: 'charlie@nodejitsu.com' } ],
+silly testEngine   repository: 
+silly testEngine    { type: 'git',
+silly testEngine      url: 'git://github.com/flatiron/flatiron-cli-users.git' },
+silly testEngine   peerDependencies: { flatiron: '~0.1.9' },
+silly testEngine   devDependencies: 
+silly testEngine    { flatiron: '~0.1.9',
+silly testEngine      'nodejitsu-api': '0.2.x',
+silly testEngine      nock: '0.9.x',
+silly testEngine      vows: '0.6.x' },
+silly testEngine   main: './lib/flatiron-cli-users',
+silly testEngine   scripts: { test: 'vows --spec' },
+silly testEngine   engines: { node: '>= 0.6.0' },
+silly testEngine   _id: 'flatiron-cli-users@0.1.1',
+silly testEngine   dependencies: {},
+silly testEngine   _engineSupported: false,
+silly testEngine   _npmVersion: '1.0.106',
+silly testEngine   _nodeVersion: 'v0.5.11-pre',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /home/lhk/.npm/flatiron-cli-users/0.1.1/package/package.json
+verbose loadDefaults flatiron-cli-users@0.1.1
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"CUY42TRGQ3NE2IWMHA9ETT3N1"',
+silly get cb     date: 'Thu, 26 Jul 2012 21:14:25 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag npm/1.1.16 from cache
+verbose bin dist [ null,
+verbose bin dist   { shasum: '7f62b41de44e11d702b712855777ec7fa0583384',
+verbose bin dist     tarball: 'http://registry.npmjs.org/npm/-/npm-1.1.16.tgz' } ]
+silly testEngine { name: 'npm',
+silly testEngine   publishConfig: { 'proprietary-attribs': false },
+silly testEngine   description: 'A package manager for node',
+silly testEngine   keywords: [ 'package manager', 'modules', 'install', 'package.json' ],
+silly testEngine   version: '1.1.16',
+silly testEngine   preferGlobal: true,
+silly testEngine   config: { publishtest: false },
+silly testEngine   homepage: 'http://npmjs.org/',
+silly testEngine   author: 
+silly testEngine    { name: 'Isaac Z. Schlueter',
+silly testEngine      email: 'i@izs.me',
+silly testEngine      url: 'http://blog.izs.me' },
+silly testEngine   repository: { type: 'git', url: 'git://github.com/isaacs/npm.git' },
+silly testEngine   bugs: 
+silly testEngine    { email: 'npm-@googlegroups.com',
+silly testEngine      url: 'http://github.com/isaacs/npm/issues' },
+silly testEngine   directories: { doc: './doc', man: './man', lib: './lib', bin: './bin' },
+silly testEngine   main: './lib/npm.js',
+silly testEngine   bin: { npm: './bin/npm-cli.js' },
+silly testEngine   dependencies: 
+silly testEngine    { semver: '1',
+silly testEngine      ini: '1',
+silly testEngine      slide: '1',
+silly testEngine      abbrev: '1',
+silly testEngine      'graceful-fs': '~1.1.1',
+silly testEngine      minimatch: '~0.2',
+silly testEngine      nopt: '1',
+silly testEngine      'node-uuid': '~1.3',
+silly testEngine      'proto-list': '1',
+silly testEngine      rimraf: '2',
+silly testEngine      request: '~2.9',
+silly testEngine      which: '1',
+silly testEngine      tar: '~0.1.12',
+silly testEngine      fstream: '~0.1.17',
+silly testEngine      'block-stream': '*',
+silly testEngine      inherits: '1',
+silly testEngine      mkdirp: '0.3',
+silly testEngine      read: '0',
+silly testEngine      'lru-cache': '1',
+silly testEngine      'node-gyp': '~0.3.7',
+silly testEngine      'fstream-npm': '0 >=0.0.4',
+silly testEngine      'uid-number': '0',
+silly testEngine      archy: '0',
+silly testEngine      chownr: '0' },
+silly testEngine   bundleDependencies: 
+silly testEngine    [ 'slide',
+silly testEngine      'ini',
+silly testEngine      'semver',
+silly testEngine      'abbrev',
+silly testEngine      'graceful-fs',
+silly testEngine      'minimatch',
+silly testEngine      'nopt',
+silly testEngine      'node-uuid',
+silly testEngine      'rimraf',
+silly testEngine      'request',
+silly testEngine      'proto-list',
+silly testEngine      'which',
+silly testEngine      'tar',
+silly testEngine      'fstream',
+silly testEngine      'block-stream',
+silly testEngine      'inherits',
+silly testEngine      'mkdirp',
+silly testEngine      'fast-list',
+silly testEngine      'read',
+silly testEngine      'lru-cache',
+silly testEngine      'node-gyp',
+silly testEngine      'fstream-npm',
+silly testEngine      'uid-number',
+silly testEngine      'archy',
+silly testEngine      'chownr' ],
+silly testEngine   devDependencies: { ronn: 'https://github.com/isaacs/ronnjs/tarball/master' },
+silly testEngine   engines: { node: '0.6 || 0.7 || 0.8', npm: '1' },
+silly testEngine   scripts: 
+silly testEngine    { test: 'node ./test/run.js',
+silly testEngine      prepublish: 'npm prune; rm -rf node_modules/*/{test,example,bench}*; make -j4 doc',
+silly testEngine      dumpconf: 'env | grep npm | sort | uniq' },
+silly testEngine   licenses: 
+silly testEngine    [ { type: 'MIT +no-false-attribs',
+silly testEngine        url: 'http://github.com/isaacs/npm/raw/master/LICENSE' } ],
+silly testEngine   _id: 'npm@1.1.16',
+silly testEngine   contributors: 
+silly testEngine    [ { name: 'Isaac Z. Schlueter',
+silly testEngine        email: 'i@izs.me',
+silly testEngine        url: 'http://blog.izs.me/' },
+silly testEngine      { name: 'Steve Steiner',
+silly testEngine        email: 'ssteinerX@gmail.com',
+silly testEngine        url: 'http://websaucesoftware.com/blog/' },
+silly testEngine      { name: 'Mikeal Rogers',
+silly testEngine        email: 'mikeal.rogers@gmail.com',
+silly testEngine        url: 'http://www.mikealrogers.com/' },
+silly testEngine      { name: 'Aaron Blohowiak',
+silly testEngine        email: 'aaron.blohowiak@gmail.com',
+silly testEngine        url: 'http://aaronblohowiak.com/' },
+silly testEngine      { name: 'Martyn Smith',
+silly testEngine        email: 'martyn@dollyfish.net.nz',
+silly testEngine        url: 'http://dollyfish.net.nz/' },
+silly testEngine      { name: 'Mathias Pettersson',
+silly testEngine        email: 'mape@mape.me',
+silly testEngine        url: 'http://mape.me/' },
+silly testEngine      { name: 'Brian Hammond',
+silly testEngine        email: 'brian@fictorial.com',
+silly testEngine        url: 'http://fictorial.com/' },
+silly testEngine      { name: 'Charlie Robbins',
+silly testEngine        email: 'charlie.robbins@gmail.com',
+silly testEngine        url: 'http://www.charlierobbins.com/' },
+silly testEngine      { name: 'Francisco Treacy',
+silly testEngine        email: 'francisco.treacy@gmail.com',
+silly testEngine        url: 'http://franciscotreacy.com/' },
+silly testEngine      { name: 'Cliffano Subagio',
+silly testEngine        email: 'cliffano@gmail.com',
+silly testEngine        url: 'http://blog.cliffano.com/' },
+silly testEngine      { name: 'Christian Eager',
+silly testEngine        email: 'christian.eager@nokia.com',
+silly testEngine        url: 'http://perpenduum.com' },
+silly testEngine      { name: 'Dav Glass',
+silly testEngine        email: 'davglass@gmail.com',
+silly testEngine        url: 'http://blog.davglass.com' },
+silly testEngine      { name: 'Alex K. Wolfe', email: 'alexkwolfe@gmail.com' },
+silly testEngine      { name: 'James Sanders',
+silly testEngine        email: 'jimmyjazz14@gmail.com',
+silly testEngine        url: 'http://james-sanders.com/' },
+silly testEngine      { name: 'Reid Burke',
+silly testEngine        email: 'me@reidburke.com',
+silly testEngine        url: 'http://reidburke.com/' },
+silly testEngine      { name: 'Arlo Breault',
+silly testEngine        email: 'arlolra@gmail.com',
+silly testEngine        url: 'http://thoughtherder.com/' },
+silly testEngine      { name: 'Timo Derstappen',
+silly testEngine        email: 'teemow@gmail.com',
+silly testEngine        url: 'http://teemow.com' },
+silly testEngine      { name: 'Bradley Meck', email: 'bradley.meck@gmail.com' },
+silly testEngine      { name: 'Bart Teeuwisse',
+silly testEngine        email: 'bart.teeuwisse@thecodemill.biz',
+silly testEngine        url: 'http://thecodemill.biz/' },
+silly testEngine      { name: 'Ben Noordhuis',
+silly testEngine        email: 'info@bnoordhuis.nl',
+silly testEngine        url: 'http://bnoordhuis.nl/' },
+silly testEngine      { name: 'Tor Valamo',
+silly testEngine        email: 'tor.valamo@gmail.com',
+silly testEngine        url: 'http://www.magnimedia.no/' },
+silly testEngine      { name: 'Whyme.Lyu',
+silly testEngine        email: '5longluna@gmail.com',
+silly testEngine        url: 'http://whyme.kuantu.com/' },
+silly testEngine      { name: 'Olivier Melcher', email: 'olivier.melcher@gmail.com' },
+silly testEngine      { name: 'Tomaž Muraus',
+silly testEngine        email: 'kami@k5-storitve.net',
+silly testEngine        url: 'http://www.tomaz-muraus.info' },
+silly testEngine      { name: 'Evan Meagher',
+silly testEngine        email: 'evan.meagher@gmail.com',
+silly testEngine        url: 'http://evanmeagher.net/' },
+silly testEngine      { name: 'Orlando Vazquez',
+silly testEngine        email: 'ovazquez@gmail.com',
+silly testEngine        url: 'http://2wycked.net/' },
+silly testEngine      { name: 'George Miroshnykov', email: 'gmiroshnykov@lohika.com' },
+silly testEngine      { name: 'Geoff Flarity',
+silly testEngine        url: 'http://ca.linkedin.com/pub/geoff-flarity/a/536/43a' },
+silly testEngine      { name: 'Pete Kruckenberg', email: 'pete@kruckenberg.com' },
+silly testEngine      { name: 'Laurie Harper',
+silly testEngine        email: 'laurie@holoweb.net',
+silly testEngine        url: 'http://laurie.holoweb.net/' },
+silly testEngine      { name: 'Chris Wong', email: 'chris@chriswongstudio.com' },
+silly testEngine      { name: 'Max Goodman',
+silly testEngine        email: 'c@chromacode.com',
+silly testEngine        url: 'http://chromacode.com/' },
+silly testEngine      { name: 'Scott Bronson', email: 'brons_github@rinspin.com' },
+silly testEngine      { name: 'Federico Romero', email: 'federomero@gmail.com' },
+silly testEngine      { name: 'Visnu Pitiyanuvath',
+silly testEngine        email: 'visnupx@gmail.com',
+silly testEngine        url: 'http://visnup.com' },
+silly testEngine      { name: 'Irakli Gozalishvili',
+silly testEngine        email: 'rfobic@gmail.com',
+silly testEngine        url: 'http://jeditoolkit.com/' },
+silly testEngine      { name: 'Mark Cahill',
+silly testEngine        email: 'mark@tiemonster.info',
+silly testEngine        url: 'http://www.tiemonster.info/' },
+silly testEngine      { name: 'Zearin', email: 'zearin@gonk.net' },
+silly testEngine      { name: 'Iain Sproat', email: 'iainsproat@gmail.com' },
+silly testEngine      { name: 'Trent Mick',
+silly testEngine        email: 'trentm@gmail.com',
+silly testEngine        url: 'http://trentm.com/' },
+silly testEngine      { name: 'Felix Geisendörfer',
+silly testEngine        email: 'felix@debuggable.com',
+silly testEngine        url: 'http://www.debuggable.com/' },
+silly testEngine      { name: 'Conny Brunnkvist',
+silly testEngine        email: 'cbrunnkvist@gmail.com',
+silly testEngine        url: 'http://twitter.com/connyb' },
+silly testEngine      { name: 'Will Elwood',
+silly testEngine        email: 'w.elwood08@gmail.com',
+silly testEngine        url: 'https://github.com/welwood08' },
+silly testEngine      { name: 'Oleg Efimov',
+silly testEngine        email: 'efimovov@gmail.com',
+silly testEngine        url: 'http://sannis.ru' },
+silly testEngine      { name: 'Martin Cooper', email: 'mfncooper@gmail.com' },
+silly testEngine      { name: 'Jameson Little', email: 't.jameson.little@gmail.com' },
+silly testEngine      { name: 'cspotcode', email: 'cspotcode@gmail.com' },
+silly testEngine      { name: 'Maciej Małecki',
+silly testEngine        email: 'maciej.malecki@notimplemented.org' },
+silly testEngine      { name: 'Stephen Sugden', email: 'glurgle@gmail.com' },
+silly testEngine      { name: 'Gautham Pai', email: 'buzypi@gmail.com' },
+silly testEngine      { name: 'David Trejo', email: 'david.daniel.trejo@gmail.com' },
+silly testEngine      { name: 'Paul Vorbach', email: 'paul@vorb.de' },
+silly testEngine      { name: 'George Ornbo', email: 'george@shapeshed.com' },
+silly testEngine      { name: 'Tim Oxley', email: 'secoif@gmail.com' },
+silly testEngine      { name: 'Tyler Green', email: 'tyler.green2@gmail.com' },
+silly testEngine      { name: 'atomizer', email: 'danila.gerasimov@gmail.com' },
+silly testEngine      { name: 'Rod Vagg', email: 'rod@vagg.org' },
+silly testEngine      { name: 'Christian Howe', email: 'coderarity@gmail.com' },
+silly testEngine      { name: 'Andrew Lunny', email: 'alunny@gmail.com' },
+silly testEngine      { name: 'Henrik Hodne', email: 'dvyjones@binaryhex.com' },
+silly testEngine      { name: 'Adam Blackburn', email: 'regality@gmail.com' },
+silly testEngine      { name: 'Kris Windham', email: 'kriswindham@gmail.com' },
+silly testEngine      { name: 'Jens Grunert', email: 'jens.grunert@gmail.com' },
+silly testEngine      { name: 'Joost-Wim Boekesteijn',
+silly testEngine        email: 'joost-wim@boekesteijn.nl' } ],
+silly testEngine   _engineSupported: false,
+silly testEngine   _npmVersion: '1.0.106',
+silly testEngine   _nodeVersion: 'v0.5.11-pre',
+silly testEngine   _defaultsLoaded: true,
+silly testEngine   man: 
+silly testEngine    [ 'man/man3/set.3',
+silly testEngine      'man/man3/prefix.3',
+silly testEngine      'man/man3/update.3',
+silly testEngine      'man/man3/bin.3',
+silly testEngine      'man/man3/help-search.3',
+silly testEngine      'man/man3/load.3',
+silly testEngine      'man/man3/root.3',
+silly testEngine      'man/man3/shrinkwrap.3',
+silly testEngine      'man/man3/list.3',
+silly testEngine      'man/man3/test.3',
+silly testEngine      'man/man3/init.3',
+silly testEngine      'man/man3/tag.3',
+silly testEngine      'man/man3/find.3',
+silly testEngine      'man/man3/commands.3',
+silly testEngine      'man/man3/docs.3',
+silly testEngine      'man/man3/search.3',
+silly testEngine      'man/man3/author.3',
+silly testEngine      'man/man3/npm.3',
+silly testEngine      'man/man3/restart.3',
+silly testEngine      'man/man3/edit.3',
+silly testEngine      'man/man3/publish.3',
+silly testEngine      'man/man3/run-script.3',
+silly testEngine      'man/man3/bugs.3',
+silly testEngine      'man/man3/uninstall.3',
+silly testEngine      'man/man3/link.3',
+silly testEngine      'man/man3/home.3',
+silly testEngine      'man/man3/rebuild.3',
+silly testEngine      'man/man3/view.3',
+silly testEngine      'man/man3/whoami.3',
+silly testEngine      'man/man3/prune.3',
+silly testEngine      'man/man3/unpublish.3',
+silly testEngine      'man/man3/start.3',
+silly testEngine      'man/man3/rm.3',
+silly testEngine      'man/man3/version.3',
+silly testEngine      'man/man3/ls.3',
+silly testEngine      'man/man3/outdated.3',
+silly testEngine      'man/man3/submodule.3',
+silly testEngine      'man/man3/explore.3',
+silly testEngine      'man/man3/pack.3',
+silly testEngine      'man/man3/stop.3',
+silly testEngine      'man/man3/deprecate.3',
+silly testEngine      'man/man3/ln.3',
+silly testEngine      'man/man3/install.3',
+silly testEngine      'man/man3/config.3',
+silly testEngine      'man/man3/get.3',
+silly testEngine      'man/man3/owner.3',
+silly testEngine      'man/man1/rebuild.1',
+silly testEngine      'man/man1/disputes.1',
+silly testEngine      'man/man1/author.1',
+silly testEngine      'man/man1/changelog.1',
+silly testEngine      'man/man1/view.1',
+silly testEngine      'man/man1/scripts.1',
+silly testEngine      'man/man1/pack.1',
+silly testEngine      'man/man1/help.1',
+silly testEngine      'man/man1/docs.1',
+silly testEngine      'man/man1/index.1',
+silly testEngine      'man/man1/search.1',
+silly testEngine      'man/man1/shrinkwrap.1',
+silly testEngine      'man/man1/ls.1',
+silly testEngine      'man/man1/set.1',
+silly testEngine      'man/man1/unpublish.1',
+silly testEngine      'man/man1/semver.1',
+silly testEngine      'man/man1/publish.1',
+silly testEngine      'man/man1/prefix.1',
+silly testEngine      'man/man1/get.1',
+silly testEngine      'man/man1/test.1',
+silly testEngine      'man/man1/find.1',
+silly testEngine      'man/man1/cache.1',
+silly testEngine      'man/man1/uninstall.1',
+silly testEngine      'man/man1/build.1',
+silly testEngine      'man/man1/edit.1',
+silly testEngine      'man/man1/tag.1',
+silly testEngine      'man/man1/star.1',
+silly testEngine      'man/man1/init.1',
+silly testEngine      'man/man1/bugs.1',
+silly testEngine      'man/man1/npm.1',
+silly testEngine      'man/man1/owner.1',
+silly testEngine      'man/man1/faq.1',
+silly testEngine      'man/man1/README.1',
+silly testEngine      'man/man1/adduser.1',
+silly testEngine      'man/man1/link.1',
+silly testEngine      'man/man1/global.1',
+silly testEngine      'man/man1/home.1',
+silly testEngine      'man/man1/config.1',
+silly testEngine      'man/man1/explore.1',
+silly testEngine      'man/man1/registry.1',
+silly testEngine      'man/man1/bundle.1',
+silly testEngine      'man/man1/submodule.1',
+silly testEngine      'man/man1/start.1',
+silly testEngine      'man/man1/update.1',
+silly testEngine      'man/man1/install.1',
+silly testEngine      'man/man1/folders.1',
+silly testEngine      'man/man1/developers.1',
+silly testEngine      'man/man1/run-script.1',
+silly testEngine      'man/man1/restart.1',
+silly testEngine      'man/man1/root.1',
+silly testEngine      'man/man1/deprecate.1',
+silly testEngine      'man/man1/coding-style.1',
+silly testEngine      'man/man1/removing-npm.1',
+silly testEngine      'man/man1/completion.1',
+silly testEngine      'man/man1/whoami.1',
+silly testEngine      'man/man1/rm.1',
+silly testEngine      'man/man1/ln.1',
+silly testEngine      'man/man1/bin.1',
+silly testEngine      'man/man1/stop.1',
+silly testEngine      'man/man1/outdated.1',
+silly testEngine      'man/man1/version.1',
+silly testEngine      'man/man1/help-search.1',
+silly testEngine      'man/man1/prune.1',
+silly testEngine      'man/man1/json.1',
+silly testEngine      'man/man1/list.1' ] }
+verbose caching /home/lhk/.npm/npm/1.1.16/package/package.json
+verbose loadDefaults npm@1.1.16
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"1D4TNGD4V9WPRP05S7TJ4GA2V"',
+silly get cb     date: 'Thu, 26 Jul 2012 21:14:25 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag fstream/0.1.18 from cache
+verbose bin dist [ null,
+verbose bin dist   { shasum: '741660affc0b175e57050498d060e53764a3aa34',
+verbose bin dist     tarball: 'http://registry.npmjs.org/fstream/-/fstream-0.1.18.tgz' } ]
+silly testEngine { author: 
+silly testEngine    { name: 'Isaac Z. Schlueter',
+silly testEngine      email: 'i@izs.me',
+silly testEngine      url: 'http://blog.izs.me/' },
+silly testEngine   name: 'fstream',
+silly testEngine   description: 'Advanced file system stream things',
+silly testEngine   version: '0.1.18',
+silly testEngine   repository: { type: 'git', url: 'git://github.com/isaacs/fstream.git' },
+silly testEngine   main: 'fstream.js',
+silly testEngine   engines: { node: '>=0.6' },
+silly testEngine   dependencies: 
+silly testEngine    { rimraf: '2',
+silly testEngine      mkdirp: '0.3',
+silly testEngine      'graceful-fs': '~1.1.2',
+silly testEngine      inherits: '~1.0.0' },
+silly testEngine   devDependencies: { tap: '' },
+silly testEngine   scripts: { test: 'tap examples/*.js' },
+silly testEngine   license: 'BSD',
+silly testEngine   _id: 'fstream@0.1.18',
+silly testEngine   _engineSupported: false,
+silly testEngine   _npmVersion: '1.0.106',
+silly testEngine   _nodeVersion: 'v0.5.11-pre',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /home/lhk/.npm/fstream/0.1.18/package/package.json
+verbose loadDefaults fstream@0.1.18
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"607QN56RF89TUCCP85J8Z6QCG"',
+silly get cb     date: 'Thu, 26 Jul 2012 21:14:25 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag fstream-npm/0.1.0 from cache
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"C5XC85K93BC9VRTVPQASDW6K9"',
+silly get cb     date: 'Thu, 26 Jul 2012 21:14:25 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag nodejitsu-api/0.3.1 from cache
+verbose bin dist [ null,
+verbose bin dist   { shasum: '9b2bbd7ffb460a845f8cbfb4ddc19124d7b1157e',
+verbose bin dist     tarball: 'http://registry.npmjs.org/fstream-npm/-/fstream-npm-0.1.0.tgz' } ]
+verbose bin dist [ null,
+verbose bin dist   { shasum: '116317a7bfde91dca89d5dead42080dca36c2245',
+verbose bin dist     tarball: 'http://registry.npmjs.org/nodejitsu-api/-/nodejitsu-api-0.3.1.tgz' } ]
+silly testEngine { author: 
+silly testEngine    { name: 'Isaac Z. Schlueter',
+silly testEngine      email: 'i@izs.me',
+silly testEngine      url: 'http://blog.izs.me/' },
+silly testEngine   name: 'fstream-npm',
+silly testEngine   description: 'fstream class for creating npm packages',
+silly testEngine   version: '0.1.0',
+silly testEngine   repository: { type: 'git', url: 'git://github.com/isaacs/fstream-npm.git' },
+silly testEngine   main: './fstream-npm.js',
+silly testEngine   dependencies: { 'fstream-ignore': '~0.0.5', inherits: '' },
+silly testEngine   license: 'BSD',
+silly testEngine   _id: 'fstream-npm@0.1.0',
+silly testEngine   devDependencies: {},
+silly testEngine   engines: { node: '*' },
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.106',
+silly testEngine   _nodeVersion: 'v0.5.11-pre',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /home/lhk/.npm/fstream-npm/0.1.0/package/package.json
+verbose loadDefaults fstream-npm@0.1.0
+silly testEngine { name: 'nodejitsu-api',
+silly testEngine   version: '0.3.1',
+silly testEngine   description: 'nodejitsu API client wrapper',
+silly testEngine   homepage: 'http://github.com/nodejitsu/nodejitsu-api',
+silly testEngine   repository: 
+silly testEngine    { type: 'git',
+silly testEngine      url: 'git://github.com/nodejitsu/nodejitsu-api.git' },
+silly testEngine   main: './lib/client.js',
+silly testEngine   scripts: { test: 'vows --spec ./test/commands/*-test.js' },
+silly testEngine   dependencies: { request: '2.2.x' },
+silly testEngine   devDependencies: { vows: '0.6.x', nock: '0.10.x' },
+silly testEngine   author: { name: 'Nodejitsu Inc.', email: 'info@nodejitsu.com' },
+silly testEngine   maintainers: 
+silly testEngine    [ { name: 'AvianFlu', email: 'avianflu@nodejitsu.com' },
+silly testEngine      { name: 'Marak', email: 'marak@nodejitsu.com' } ],
+silly testEngine   _id: 'nodejitsu-api@0.3.1',
+silly testEngine   engines: { node: '*' },
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.106',
+silly testEngine   _nodeVersion: 'v0.5.11-pre',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /home/lhk/.npm/nodejitsu-api/0.3.1/package/package.json
+verbose loadDefaults nodejitsu-api@0.3.1
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"7YNOZEMDI29ZWXI9CLOVZKMO3"',
+silly get cb     date: 'Thu, 26 Jul 2012 21:14:26 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag pkginfo/0.2.3 from cache
+verbose bin dist [ null,
+verbose bin dist   { shasum: '7239c42a5ef6c30b8f328439d9b9ff71042490f8',
+verbose bin dist     tarball: 'http://registry.npmjs.org/pkginfo/-/pkginfo-0.2.3.tgz' } ]
+silly testEngine { name: 'pkginfo',
+silly testEngine   version: '0.2.3',
+silly testEngine   description: 'An easy way to expose properties on a module from a package.json',
+silly testEngine   author: { name: 'Charlie Robbins', email: 'charlie.robbins@gmail.com' },
+silly testEngine   repository: 
+silly testEngine    { type: 'git',
+silly testEngine      url: 'git://github.com/indexzero/node-pkginfo.git' },
+silly testEngine   keywords: [ 'info', 'tools', 'package.json' ],
+silly testEngine   devDependencies: { vows: '0.6.x' },
+silly testEngine   main: './lib/pkginfo',
+silly testEngine   scripts: { test: 'vows test/*-test.js --spec' },
+silly testEngine   engines: { node: '>= 0.4.0' },
+silly testEngine   _id: 'pkginfo@0.2.3',
+silly testEngine   dependencies: {},
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.106',
+silly testEngine   _nodeVersion: 'v0.5.11-pre',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /home/lhk/.npm/pkginfo/0.2.3/package/package.json
+verbose loadDefaults pkginfo@0.2.3
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"EMU57Q0HPT3FPSMUM566695WG"',
+silly get cb     date: 'Thu, 26 Jul 2012 21:14:26 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag require-analyzer/0.4.0-3 from cache
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"6Q9ZNBD0LBNDZHRC0209QECD3"',
+silly get cb     date: 'Thu, 26 Jul 2012 21:14:26 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag semver/1.0.13 from cache
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"CIR6PZ6QBP8ZVFS5BH0Z5A18X"',
+silly get cb     date: 'Thu, 26 Jul 2012 21:14:26 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag spawn-command/0.0.1 from cache
+verbose bin dist [ null,
+verbose bin dist   { shasum: '877c032f5e1aee5608e726a01664b9e9283c446c',
+verbose bin dist     tarball: 'http://registry.npmjs.org/require-analyzer/-/require-analyzer-0.4.0-3.tgz' } ]
+verbose bin dist [ null,
+verbose bin dist   { shasum: '9512ce1392105e72a0b739b27f39e0242913d07e',
+verbose bin dist     tarball: 'http://registry.npmjs.org/semver/-/semver-1.0.13.tgz' } ]
+verbose bin dist [ null,
+verbose bin dist   { shasum: '7fd5522baeabb0914f32d2ac0f35713dcc21b727',
+verbose bin dist     tarball: 'http://registry.npmjs.org/spawn-command/-/spawn-command-0.0.1.tgz' } ]
+silly testEngine { name: 'require-analyzer',
+silly testEngine   description: 'Determine dependencies for a given node.js file, directory tree, or module in code or on the command line',
+silly testEngine   version: '0.4.0-3',
+silly testEngine   author: { name: 'Charlie Robbins', email: 'charlie.robbins@gmail.com' },
+silly testEngine   contributors: 
+silly testEngine    [ { name: 'Marak Squires', email: 'marak@nodejitsu.com' },
+silly testEngine      { name: 'Bradley Meck', email: 'bradley@nodejitsu.com' },
+silly testEngine      { name: 'Dominic Tarr', email: 'dominic@nodejitsu.com' },
+silly testEngine      { name: 'Charlie McConnell', email: 'avianflu@nodejitsu.com' },
+silly testEngine      { name: 'Maciej Malecki', email: 'maciej@nodejitsu.com' } ],
+silly testEngine   repository: 
+silly testEngine    { type: 'git',
+silly testEngine      url: 'git://github.com/nodejitsu/require-analyzer.git' },
+silly testEngine   dependencies: 
+silly testEngine    { colors: '0.x.x',
+silly testEngine      findit: '0.0.x',
+silly testEngine      npm: '1.1.4',
+silly testEngine      optimist: '0.2.x',
+silly testEngine      semver: '1.0.x',
+silly testEngine      winston: '0.5.x',
+silly testEngine      detective: '0.0.x',
+silly testEngine      eyes: '0.1.x' },
+silly testEngine   devDependencies: { vows: '0.6.x' },
+silly testEngine   main: './lib/require-analyzer',
+silly testEngine   bin: { 'require-analyzer': './bin/require-analyzer' },
+silly testEngine   engines: { node: '>= 0.4.0' },
+silly testEngine   scripts: { test: 'vows test/*-test.js --spec' },
+silly testEngine   _id: 'require-analyzer@0.4.0-3',
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.106',
+silly testEngine   _nodeVersion: 'v0.5.11-pre',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /home/lhk/.npm/require-analyzer/0.4.0-3/package/package.json
+verbose loadDefaults require-analyzer@0.4.0-3
+silly testEngine { name: 'semver',
+silly testEngine   version: '1.0.13',
+silly testEngine   description: 'The semantic version parser used by npm.',
+silly testEngine   main: 'semver.js',
+silly testEngine   scripts: { test: 'tap test.js' },
+silly testEngine   devDependencies: { tap: '0.x >=0.0.4' },
+silly testEngine   license: 
+silly testEngine    { type: 'MIT',
+silly testEngine      url: 'https://github.com/isaacs/semver/raw/master/LICENSE' },
+silly testEngine   repository: { type: 'git', url: 'git://github.com/isaacs/node-semver.git' },
+silly testEngine   bin: { semver: './bin/semver' },
+silly testEngine   _id: 'semver@1.0.13',
+silly testEngine   dependencies: {},
+silly testEngine   engines: { node: '*' },
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.106',
+silly testEngine   _nodeVersion: 'v0.5.11-pre',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /home/lhk/.npm/semver/1.0.13/package/package.json
+verbose loadDefaults semver@1.0.13
+silly testEngine { name: 'spawn-command',
+silly testEngine   author: { name: 'Maciej Małecki', email: 'me@mmalecki.com' },
+silly testEngine   description: 'Spawn commands like `child_process.exec` does but return a `ChildProcess`',
+silly testEngine   version: '0.0.1',
+silly testEngine   main: './lib/spawn-command',
+silly testEngine   scripts: { test: 'node test/spawn-command-test.js' },
+silly testEngine   _id: 'spawn-command@0.0.1',
+silly testEngine   dependencies: {},
+silly testEngine   devDependencies: {},
+silly testEngine   engines: { node: '*' },
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.106',
+silly testEngine   _nodeVersion: 'v0.5.11-pre',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /home/lhk/.npm/spawn-command/0.0.1/package/package.json
+verbose loadDefaults spawn-command@0.0.1
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"N4Q4NWTRYSLV624RKVZBW9ZF"',
+silly get cb     date: 'Thu, 26 Jul 2012 21:14:26 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag request/2.9.100 from cache
+verbose bin dist [ null,
+verbose bin dist   { shasum: 'c9900a6cc8576b8400a82161a6268962f3d09b78',
+verbose bin dist     tarball: 'http://registry.npmjs.org/request/-/request-2.9.100.tgz' } ]
+silly testEngine { name: 'request',
+silly testEngine   description: 'Simplified HTTP request client.',
+silly testEngine   tags: [ 'http', 'simple', 'util', 'utility' ],
+silly testEngine   version: '2.9.100',
+silly testEngine   author: { name: 'Mikeal Rogers', email: 'mikeal.rogers@gmail.com' },
+silly testEngine   repository: { type: 'git', url: 'git://github.com/mikeal/request.git' },
+silly testEngine   bugs: { url: 'http://github.com/mikeal/request/issues' },
+silly testEngine   engines: [ 'node >= 0.3.6', node: ' >= 0.3.6' ],
+silly testEngine   main: './main',
+silly testEngine   scripts: { test: 'bash tests/run.sh' },
+silly testEngine   _id: 'request@2.9.100',
+silly testEngine   dependencies: {},
+silly testEngine   devDependencies: {},
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.106',
+silly testEngine   _nodeVersion: 'v0.5.11-pre',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /home/lhk/.npm/request/2.9.100/package/package.json
+verbose loadDefaults request@2.9.100
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"6303CNFMZJ5WAU1S1AKBVZQ6W"',
+silly get cb     date: 'Thu, 26 Jul 2012 21:14:27 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag wizard/0.0.1 from cache
+verbose bin dist [ null,
+verbose bin dist   { shasum: 'c5c1e6f72d263c998f015f8dbe12d09ecfd19db8',
+verbose bin dist     tarball: 'http://registry.npmjs.org/wizard/-/wizard-0.0.1.tgz' } ]
+silly testEngine { author: { name: 'marak', email: 'marak.squires@gmail.com' },
+silly testEngine   name: 'wizard',
+silly testEngine   version: '0.0.1',
+silly testEngine   main: './lib/wizard',
+silly testEngine   dependencies: { prompt: '*' },
+silly testEngine   devDependencies: {},
+silly testEngine   optionalDependencies: {},
+silly testEngine   engines: { node: '*' },
+silly testEngine   _id: 'wizard@0.0.1',
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.106',
+silly testEngine   _nodeVersion: 'v0.5.11-pre',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /home/lhk/.npm/wizard/0.0.1/package/package.json
+verbose loadDefaults wizard@0.0.1
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"8Z0DYESJVUCCI6GEK4KZJIZOS"',
+silly get cb     date: 'Thu, 26 Jul 2012 21:14:27 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag tar/0.1.13 from cache
+verbose bin dist [ null,
+verbose bin dist   { shasum: '5e467fcfb4b911ca8881e36eb5c1eb4ab06d9ae5',
+verbose bin dist     tarball: 'http://registry.npmjs.org/tar/-/tar-0.1.13.tgz' } ]
+silly testEngine { author: 
+silly testEngine    { name: 'Isaac Z. Schlueter',
+silly testEngine      email: 'i@izs.me',
+silly testEngine      url: 'http://blog.izs.me/' },
+silly testEngine   name: 'tar',
+silly testEngine   description: 'tar for node',
+silly testEngine   version: '0.1.13',
+silly testEngine   repository: { type: 'git', url: 'git://github.com/isaacs/node-tar.git' },
+silly testEngine   main: 'tar.js',
+silly testEngine   scripts: { test: 'tap test/*.js' },
+silly testEngine   engines: { node: '~0.5.9 || 0.6 || 0.7 || 0.8' },
+silly testEngine   dependencies: { inherits: '1.x', 'block-stream': '*', fstream: '~0.1.8' },
+silly testEngine   devDependencies: { tap: '0.x', rimraf: '1.x' },
+silly testEngine   _id: 'tar@0.1.13',
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.106',
+silly testEngine   _nodeVersion: 'v0.5.11-pre',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /home/lhk/.npm/tar/0.1.13/package/package.json
+verbose loadDefaults tar@0.1.13
+silly resolved [ { name: 'colors',
+silly resolved     description: 'get colors in your node.js console like what',
+silly resolved     version: '0.6.0-1',
+silly resolved     author: { name: 'Marak Squires' },
+silly resolved     repository: { type: 'git', url: 'git://github.com/Marak/colors.js.git' },
+silly resolved     engines: { node: '>=0.1.90' },
+silly resolved     main: 'colors',
+silly resolved     _id: 'colors@0.6.0-1',
+silly resolved     dependencies: {},
+silly resolved     devDependencies: {},
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.0.106',
+silly resolved     _nodeVersion: 'v0.5.11-pre',
+silly resolved     _defaultsLoaded: true },
+silly resolved   { name: 'dateformat',
+silly resolved     description: 'A node.js package for Steven Levithan\'s excellent dateFormat() function.',
+silly resolved     maintainers: 'Felix Geisendörfer <felix@debuggable.com>',
+silly resolved     homepage: 'https://github.com/felixge/node-dateformat',
+silly resolved     author: { name: 'Steven Levithan' },
+silly resolved     version: '1.0.2-1.2.3',
+silly resolved     main: './lib/dateformat',
+silly resolved     dependencies: {},
+silly resolved     devDependencies: {},
+silly resolved     engines: { node: '*' },
+silly resolved     _id: 'dateformat@1.0.2-1.2.3',
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.0.106',
+silly resolved     _nodeVersion: 'v0.5.11-pre',
+silly resolved     _defaultsLoaded: true },
+silly resolved   { name: 'complete',
+silly resolved     version: '0.3.1',
+silly resolved     description: 'tab completion for your nodejs CLI program',
+silly resolved     main: './lib/complete.js',
+silly resolved     directories: { lib: './lib', example: './example' },
+silly resolved     repository: { type: 'git', url: 'git://github.com/hij1nx/complete.git' },
+silly resolved     keywords: 
+silly resolved      [ 'terminal',
+silly resolved        'tabs',
+silly resolved        'unix',
+silly resolved        'posix',
+silly resolved        'console',
+silly resolved        'complete',
+silly resolved        'completion' ],
+silly resolved     author: 
+silly resolved      { name: 'hij1nx',
+silly resolved        email: 'hij1nx@me.com',
+silly resolved        url: 'http://www.nodejitsu.com' },
+silly resolved     maintainers: [ { name: 'hij1nx', email: 'hij1nx@me.com' } ],
+silly resolved     license: 'MIT',
+silly resolved     engine: { node: '>=0.4' },
+silly resolved     _id: 'complete@0.3.1',
+silly resolved     dependencies: {},
+silly resolved     devDependencies: {},
+silly resolved     engines: { node: '*' },
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.0.106',
+silly resolved     _nodeVersion: 'v0.5.11-pre',
+silly resolved     _defaultsLoaded: true },
+silly resolved   { name: 'flatiron',
+silly resolved     description: 'An elegant blend of convention and configuration for building apps in Node.js and the browser',
+silly resolved     version: '0.2.5',
+silly resolved     author: { name: 'Nodejitsu Inc.', email: 'info@nodejitsu.com' },
+silly resolved     maintainers: 
+silly resolved      [ { name: 'indexzero', email: 'charlie@nodejitsu.com' },
+silly resolved        { name: 'AvianFlu', email: 'avianflu@nodejitsu.com' },
+silly resolved        { name: 'Marak', email: 'marak@nodejitsu.com' } ],
+silly resolved     repository: { type: 'git', url: 'git://github.com/flatiron/flatiron.git' },
+silly resolved     dependencies: 
+silly resolved      { broadway: '0.2.5',
+silly resolved        optimist: '0.3.4',
+silly resolved        prompt: '0.2.2',
+silly resolved        director: '1.1.0',
+silly resolved        pkginfo: '0.2.3' },
+silly resolved     devDependencies: 
+silly resolved      { ecstatic: '0.1.6',
+silly resolved        request: '2.x.x',
+silly resolved        resourceful: '0.1.10',
+silly resolved        union: '0.3.3',
+silly resolved        vows: '0.6.2' },
+silly resolved     main: './lib/flatiron',
+silly resolved     bin: { flatiron: './bin/flatiron' },
+silly resolved     scripts: { test: 'vows --spec' },
+silly resolved     engines: { node: '>= 0.4.0' },
+silly resolved     _id: 'flatiron@0.2.5',
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.0.106',
+silly resolved     _nodeVersion: 'v0.5.11-pre',
+silly resolved     _defaultsLoaded: true },
+silly resolved   { name: 'flatiron-cli-config',
+silly resolved     version: '0.1.3',
+silly resolved     description: 'Encapsulated commands for managing configuration in flatiron CLI apps',
+silly resolved     author: { name: 'Nodejitsu Inc.', email: 'info@nodejitsu.com' },
+silly resolved     maintainers: [ { name: 'indexzero', email: 'charlie@nodejitsu.com' } ],
+silly resolved     repository: 
+silly resolved      { type: 'git',
+silly resolved        url: 'git://github.com/flatiron/flatiron-cli-config.git' },
+silly resolved     peerDependencies: { flatiron: '~0.1.9' },
+silly resolved     devDependencies: { flatiron: '~0.2.0', 'cli-easy': '0.1.x', vows: '0.6.x' },
+silly resolved     main: './lib/flatiron-cli-config',
+silly resolved     scripts: { test: 'vows --spec --isolate' },
+silly resolved     engines: { node: '>= 0.6.0' },
+silly resolved     _id: 'flatiron-cli-config@0.1.3',
+silly resolved     dependencies: {},
+silly resolved     _engineSupported: false,
+silly resolved     _npmVersion: '1.0.106',
+silly resolved     _nodeVersion: 'v0.5.11-pre',
+silly resolved     _defaultsLoaded: true },
+silly resolved   { name: 'flatiron-cli-users',
+silly resolved     version: '0.1.1',
+silly resolved     description: 'Encapsulated commands for managing users in flatiron CLI apps',
+silly resolved     author: { name: 'Nodejitsu Inc', email: 'info@nodejitsu.com' },
+silly resolved     contributors: [ { name: 'Charlie Robbins', email: 'charlie@nodejitsu.com' } ],
+silly resolved     repository: 
+silly resolved      { type: 'git',
+silly resolved        url: 'git://github.com/flatiron/flatiron-cli-users.git' },
+silly resolved     peerDependencies: { flatiron: '~0.1.9' },
+silly resolved     devDependencies: 
+silly resolved      { flatiron: '~0.1.9',
+silly resolved        'nodejitsu-api': '0.2.x',
+silly resolved        nock: '0.9.x',
+silly resolved        vows: '0.6.x' },
+silly resolved     main: './lib/flatiron-cli-users',
+silly resolved     scripts: { test: 'vows --spec' },
+silly resolved     engines: { node: '>= 0.6.0' },
+silly resolved     _id: 'flatiron-cli-users@0.1.1',
+silly resolved     dependencies: {},
+silly resolved     _engineSupported: false,
+silly resolved     _npmVersion: '1.0.106',
+silly resolved     _nodeVersion: 'v0.5.11-pre',
+silly resolved     _defaultsLoaded: true },
+silly resolved   { name: 'npm',
+silly resolved     publishConfig: { 'proprietary-attribs': false },
+silly resolved     description: 'A package manager for node',
+silly resolved     keywords: [ 'package manager', 'modules', 'install', 'package.json' ],
+silly resolved     version: '1.1.16',
+silly resolved     preferGlobal: true,
+silly resolved     config: { publishtest: false },
+silly resolved     homepage: 'http://npmjs.org/',
+silly resolved     author: 
+silly resolved      { name: 'Isaac Z. Schlueter',
+silly resolved        email: 'i@izs.me',
+silly resolved        url: 'http://blog.izs.me' },
+silly resolved     repository: { type: 'git', url: 'git://github.com/isaacs/npm.git' },
+silly resolved     bugs: 
+silly resolved      { email: 'npm-@googlegroups.com',
+silly resolved        url: 'http://github.com/isaacs/npm/issues' },
+silly resolved     directories: { doc: './doc', man: './man', lib: './lib', bin: './bin' },
+silly resolved     main: './lib/npm.js',
+silly resolved     bin: { npm: './bin/npm-cli.js' },
+silly resolved     dependencies: 
+silly resolved      { semver: '1',
+silly resolved        ini: '1',
+silly resolved        slide: '1',
+silly resolved        abbrev: '1',
+silly resolved        'graceful-fs': '~1.1.1',
+silly resolved        minimatch: '~0.2',
+silly resolved        nopt: '1',
+silly resolved        'node-uuid': '~1.3',
+silly resolved        'proto-list': '1',
+silly resolved        rimraf: '2',
+silly resolved        request: '~2.9',
+silly resolved        which: '1',
+silly resolved        tar: '~0.1.12',
+silly resolved        fstream: '~0.1.17',
+silly resolved        'block-stream': '*',
+silly resolved        inherits: '1',
+silly resolved        mkdirp: '0.3',
+silly resolved        read: '0',
+silly resolved        'lru-cache': '1',
+silly resolved        'node-gyp': '~0.3.7',
+silly resolved        'fstream-npm': '0 >=0.0.4',
+silly resolved        'uid-number': '0',
+silly resolved        archy: '0',
+silly resolved        chownr: '0' },
+silly resolved     bundleDependencies: 
+silly resolved      [ 'slide',
+silly resolved        'ini',
+silly resolved        'semver',
+silly resolved        'abbrev',
+silly resolved        'graceful-fs',
+silly resolved        'minimatch',
+silly resolved        'nopt',
+silly resolved        'node-uuid',
+silly resolved        'rimraf',
+silly resolved        'request',
+silly resolved        'proto-list',
+silly resolved        'which',
+silly resolved        'tar',
+silly resolved        'fstream',
+silly resolved        'block-stream',
+silly resolved        'inherits',
+silly resolved        'mkdirp',
+silly resolved        'fast-list',
+silly resolved        'read',
+silly resolved        'lru-cache',
+silly resolved        'node-gyp',
+silly resolved        'fstream-npm',
+silly resolved        'uid-number',
+silly resolved        'archy',
+silly resolved        'chownr' ],
+silly resolved     devDependencies: { ronn: 'https://github.com/isaacs/ronnjs/tarball/master' },
+silly resolved     engines: { node: '0.6 || 0.7 || 0.8', npm: '1' },
+silly resolved     scripts: 
+silly resolved      { test: 'node ./test/run.js',
+silly resolved        prepublish: 'npm prune; rm -rf node_modules/*/{test,example,bench}*; make -j4 doc',
+silly resolved        dumpconf: 'env | grep npm | sort | uniq' },
+silly resolved     licenses: 
+silly resolved      [ { type: 'MIT +no-false-attribs',
+silly resolved          url: 'http://github.com/isaacs/npm/raw/master/LICENSE' } ],
+silly resolved     _id: 'npm@1.1.16',
+silly resolved     contributors: 
+silly resolved      [ { name: 'Isaac Z. Schlueter',
+silly resolved          email: 'i@izs.me',
+silly resolved          url: 'http://blog.izs.me/' },
+silly resolved        { name: 'Steve Steiner',
+silly resolved          email: 'ssteinerX@gmail.com',
+silly resolved          url: 'http://websaucesoftware.com/blog/' },
+silly resolved        { name: 'Mikeal Rogers',
+silly resolved          email: 'mikeal.rogers@gmail.com',
+silly resolved          url: 'http://www.mikealrogers.com/' },
+silly resolved        { name: 'Aaron Blohowiak',
+silly resolved          email: 'aaron.blohowiak@gmail.com',
+silly resolved          url: 'http://aaronblohowiak.com/' },
+silly resolved        { name: 'Martyn Smith',
+silly resolved          email: 'martyn@dollyfish.net.nz',
+silly resolved          url: 'http://dollyfish.net.nz/' },
+silly resolved        { name: 'Mathias Pettersson',
+silly resolved          email: 'mape@mape.me',
+silly resolved          url: 'http://mape.me/' },
+silly resolved        { name: 'Brian Hammond',
+silly resolved          email: 'brian@fictorial.com',
+silly resolved          url: 'http://fictorial.com/' },
+silly resolved        { name: 'Charlie Robbins',
+silly resolved          email: 'charlie.robbins@gmail.com',
+silly resolved          url: 'http://www.charlierobbins.com/' },
+silly resolved        { name: 'Francisco Treacy',
+silly resolved          email: 'francisco.treacy@gmail.com',
+silly resolved          url: 'http://franciscotreacy.com/' },
+silly resolved        { name: 'Cliffano Subagio',
+silly resolved          email: 'cliffano@gmail.com',
+silly resolved          url: 'http://blog.cliffano.com/' },
+silly resolved        { name: 'Christian Eager',
+silly resolved          email: 'christian.eager@nokia.com',
+silly resolved          url: 'http://perpenduum.com' },
+silly resolved        { name: 'Dav Glass',
+silly resolved          email: 'davglass@gmail.com',
+silly resolved          url: 'http://blog.davglass.com' },
+silly resolved        { name: 'Alex K. Wolfe', email: 'alexkwolfe@gmail.com' },
+silly resolved        { name: 'James Sanders',
+silly resolved          email: 'jimmyjazz14@gmail.com',
+silly resolved          url: 'http://james-sanders.com/' },
+silly resolved        { name: 'Reid Burke',
+silly resolved          email: 'me@reidburke.com',
+silly resolved          url: 'http://reidburke.com/' },
+silly resolved        { name: 'Arlo Breault',
+silly resolved          email: 'arlolra@gmail.com',
+silly resolved          url: 'http://thoughtherder.com/' },
+silly resolved        { name: 'Timo Derstappen',
+silly resolved          email: 'teemow@gmail.com',
+silly resolved          url: 'http://teemow.com' },
+silly resolved        { name: 'Bradley Meck', email: 'bradley.meck@gmail.com' },
+silly resolved        { name: 'Bart Teeuwisse',
+silly resolved          email: 'bart.teeuwisse@thecodemill.biz',
+silly resolved          url: 'http://thecodemill.biz/' },
+silly resolved        { name: 'Ben Noordhuis',
+silly resolved          email: 'info@bnoordhuis.nl',
+silly resolved          url: 'http://bnoordhuis.nl/' },
+silly resolved        { name: 'Tor Valamo',
+silly resolved          email: 'tor.valamo@gmail.com',
+silly resolved          url: 'http://www.magnimedia.no/' },
+silly resolved        { name: 'Whyme.Lyu',
+silly resolved          email: '5longluna@gmail.com',
+silly resolved          url: 'http://whyme.kuantu.com/' },
+silly resolved        { name: 'Olivier Melcher', email: 'olivier.melcher@gmail.com' },
+silly resolved        { name: 'Tomaž Muraus',
+silly resolved          email: 'kami@k5-storitve.net',
+silly resolved          url: 'http://www.tomaz-muraus.info' },
+silly resolved        { name: 'Evan Meagher',
+silly resolved          email: 'evan.meagher@gmail.com',
+silly resolved          url: 'http://evanmeagher.net/' },
+silly resolved        { name: 'Orlando Vazquez',
+silly resolved          email: 'ovazquez@gmail.com',
+silly resolved          url: 'http://2wycked.net/' },
+silly resolved        { name: 'George Miroshnykov', email: 'gmiroshnykov@lohika.com' },
+silly resolved        { name: 'Geoff Flarity',
+silly resolved          url: 'http://ca.linkedin.com/pub/geoff-flarity/a/536/43a' },
+silly resolved        { name: 'Pete Kruckenberg', email: 'pete@kruckenberg.com' },
+silly resolved        { name: 'Laurie Harper',
+silly resolved          email: 'laurie@holoweb.net',
+silly resolved          url: 'http://laurie.holoweb.net/' },
+silly resolved        { name: 'Chris Wong', email: 'chris@chriswongstudio.com' },
+silly resolved        { name: 'Max Goodman',
+silly resolved          email: 'c@chromacode.com',
+silly resolved          url: 'http://chromacode.com/' },
+silly resolved        { name: 'Scott Bronson', email: 'brons_github@rinspin.com' },
+silly resolved        { name: 'Federico Romero', email: 'federomero@gmail.com' },
+silly resolved        { name: 'Visnu Pitiyanuvath',
+silly resolved          email: 'visnupx@gmail.com',
+silly resolved          url: 'http://visnup.com' },
+silly resolved        { name: 'Irakli Gozalishvili',
+silly resolved          email: 'rfobic@gmail.com',
+silly resolved          url: 'http://jeditoolkit.com/' },
+silly resolved        { name: 'Mark Cahill',
+silly resolved          email: 'mark@tiemonster.info',
+silly resolved          url: 'http://www.tiemonster.info/' },
+silly resolved        { name: 'Zearin', email: 'zearin@gonk.net' },
+silly resolved        { name: 'Iain Sproat', email: 'iainsproat@gmail.com' },
+silly resolved        { name: 'Trent Mick',
+silly resolved          email: 'trentm@gmail.com',
+silly resolved          url: 'http://trentm.com/' },
+silly resolved        { name: 'Felix Geisendörfer',
+silly resolved          email: 'felix@debuggable.com',
+silly resolved          url: 'http://www.debuggable.com/' },
+silly resolved        { name: 'Conny Brunnkvist',
+silly resolved          email: 'cbrunnkvist@gmail.com',
+silly resolved          url: 'http://twitter.com/connyb' },
+silly resolved        { name: 'Will Elwood',
+silly resolved          email: 'w.elwood08@gmail.com',
+silly resolved          url: 'https://github.com/welwood08' },
+silly resolved        { name: 'Oleg Efimov',
+silly resolved          email: 'efimovov@gmail.com',
+silly resolved          url: 'http://sannis.ru' },
+silly resolved        { name: 'Martin Cooper', email: 'mfncooper@gmail.com' },
+silly resolved        { name: 'Jameson Little', email: 't.jameson.little@gmail.com' },
+silly resolved        { name: 'cspotcode', email: 'cspotcode@gmail.com' },
+silly resolved        { name: 'Maciej Małecki',
+silly resolved          email: 'maciej.malecki@notimplemented.org' },
+silly resolved        { name: 'Stephen Sugden', email: 'glurgle@gmail.com' },
+silly resolved        { name: 'Gautham Pai', email: 'buzypi@gmail.com' },
+silly resolved        { name: 'David Trejo', email: 'david.daniel.trejo@gmail.com' },
+silly resolved        { name: 'Paul Vorbach', email: 'paul@vorb.de' },
+silly resolved        { name: 'George Ornbo', email: 'george@shapeshed.com' },
+silly resolved        { name: 'Tim Oxley', email: 'secoif@gmail.com' },
+silly resolved        { name: 'Tyler Green', email: 'tyler.green2@gmail.com' },
+silly resolved        { name: 'atomizer', email: 'danila.gerasimov@gmail.com' },
+silly resolved        { name: 'Rod Vagg', email: 'rod@vagg.org' },
+silly resolved        { name: 'Christian Howe', email: 'coderarity@gmail.com' },
+silly resolved        { name: 'Andrew Lunny', email: 'alunny@gmail.com' },
+silly resolved        { name: 'Henrik Hodne', email: 'dvyjones@binaryhex.com' },
+silly resolved        { name: 'Adam Blackburn', email: 'regality@gmail.com' },
+silly resolved        { name: 'Kris Windham', email: 'kriswindham@gmail.com' },
+silly resolved        { name: 'Jens Grunert', email: 'jens.grunert@gmail.com' },
+silly resolved        { name: 'Joost-Wim Boekesteijn',
+silly resolved          email: 'joost-wim@boekesteijn.nl' } ],
+silly resolved     _engineSupported: false,
+silly resolved     _npmVersion: '1.0.106',
+silly resolved     _nodeVersion: 'v0.5.11-pre',
+silly resolved     _defaultsLoaded: true,
+silly resolved     man: 
+silly resolved      [ 'man/man3/set.3',
+silly resolved        'man/man3/prefix.3',
+silly resolved        'man/man3/update.3',
+silly resolved        'man/man3/bin.3',
+silly resolved        'man/man3/help-search.3',
+silly resolved        'man/man3/load.3',
+silly resolved        'man/man3/root.3',
+silly resolved        'man/man3/shrinkwrap.3',
+silly resolved        'man/man3/list.3',
+silly resolved        'man/man3/test.3',
+silly resolved        'man/man3/init.3',
+silly resolved        'man/man3/tag.3',
+silly resolved        'man/man3/find.3',
+silly resolved        'man/man3/commands.3',
+silly resolved        'man/man3/docs.3',
+silly resolved        'man/man3/search.3',
+silly resolved        'man/man3/author.3',
+silly resolved        'man/man3/npm.3',
+silly resolved        'man/man3/restart.3',
+silly resolved        'man/man3/edit.3',
+silly resolved        'man/man3/publish.3',
+silly resolved        'man/man3/run-script.3',
+silly resolved        'man/man3/bugs.3',
+silly resolved        'man/man3/uninstall.3',
+silly resolved        'man/man3/link.3',
+silly resolved        'man/man3/home.3',
+silly resolved        'man/man3/rebuild.3',
+silly resolved        'man/man3/view.3',
+silly resolved        'man/man3/whoami.3',
+silly resolved        'man/man3/prune.3',
+silly resolved        'man/man3/unpublish.3',
+silly resolved        'man/man3/start.3',
+silly resolved        'man/man3/rm.3',
+silly resolved        'man/man3/version.3',
+silly resolved        'man/man3/ls.3',
+silly resolved        'man/man3/outdated.3',
+silly resolved        'man/man3/submodule.3',
+silly resolved        'man/man3/explore.3',
+silly resolved        'man/man3/pack.3',
+silly resolved        'man/man3/stop.3',
+silly resolved        'man/man3/deprecate.3',
+silly resolved        'man/man3/ln.3',
+silly resolved        'man/man3/install.3',
+silly resolved        'man/man3/config.3',
+silly resolved        'man/man3/get.3',
+silly resolved        'man/man3/owner.3',
+silly resolved        'man/man1/rebuild.1',
+silly resolved        'man/man1/disputes.1',
+silly resolved        'man/man1/author.1',
+silly resolved        'man/man1/changelog.1',
+silly resolved        'man/man1/view.1',
+silly resolved        'man/man1/scripts.1',
+silly resolved        'man/man1/pack.1',
+silly resolved        'man/man1/help.1',
+silly resolved        'man/man1/docs.1',
+silly resolved        'man/man1/index.1',
+silly resolved        'man/man1/search.1',
+silly resolved        'man/man1/shrinkwrap.1',
+silly resolved        'man/man1/ls.1',
+silly resolved        'man/man1/set.1',
+silly resolved        'man/man1/unpublish.1',
+silly resolved        'man/man1/semver.1',
+silly resolved        'man/man1/publish.1',
+silly resolved        'man/man1/prefix.1',
+silly resolved        'man/man1/get.1',
+silly resolved        'man/man1/test.1',
+silly resolved        'man/man1/find.1',
+silly resolved        'man/man1/cache.1',
+silly resolved        'man/man1/uninstall.1',
+silly resolved        'man/man1/build.1',
+silly resolved        'man/man1/edit.1',
+silly resolved        'man/man1/tag.1',
+silly resolved        'man/man1/star.1',
+silly resolved        'man/man1/init.1',
+silly resolved        'man/man1/bugs.1',
+silly resolved        'man/man1/npm.1',
+silly resolved        'man/man1/owner.1',
+silly resolved        'man/man1/faq.1',
+silly resolved        'man/man1/README.1',
+silly resolved        'man/man1/adduser.1',
+silly resolved        'man/man1/link.1',
+silly resolved        'man/man1/global.1',
+silly resolved        'man/man1/home.1',
+silly resolved        'man/man1/config.1',
+silly resolved        'man/man1/explore.1',
+silly resolved        'man/man1/registry.1',
+silly resolved        'man/man1/bundle.1',
+silly resolved        'man/man1/submodule.1',
+silly resolved        'man/man1/start.1',
+silly resolved        'man/man1/update.1',
+silly resolved        'man/man1/install.1',
+silly resolved        'man/man1/folders.1',
+silly resolved        'man/man1/developers.1',
+silly resolved        'man/man1/run-script.1',
+silly resolved        'man/man1/restart.1',
+silly resolved        'man/man1/root.1',
+silly resolved        'man/man1/deprecate.1',
+silly resolved        'man/man1/coding-style.1',
+silly resolved        'man/man1/removing-npm.1',
+silly resolved        'man/man1/completion.1',
+silly resolved        'man/man1/whoami.1',
+silly resolved        'man/man1/rm.1',
+silly resolved        'man/man1/ln.1',
+silly resolved        'man/man1/bin.1',
+silly resolved        'man/man1/stop.1',
+silly resolved        'man/man1/outdated.1',
+silly resolved        'man/man1/version.1',
+silly resolved        'man/man1/help-search.1',
+silly resolved        'man/man1/prune.1',
+silly resolved        'man/man1/json.1',
+silly resolved        'man/man1/list.1' ] },
+silly resolved   { author: 
+silly resolved      { name: 'Isaac Z. Schlueter',
+silly resolved        email: 'i@izs.me',
+silly resolved        url: 'http://blog.izs.me/' },
+silly resolved     name: 'fstream',
+silly resolved     description: 'Advanced file system stream things',
+silly resolved     version: '0.1.18',
+silly resolved     repository: { type: 'git', url: 'git://github.com/isaacs/fstream.git' },
+silly resolved     main: 'fstream.js',
+silly resolved     engines: { node: '>=0.6' },
+silly resolved     dependencies: 
+silly resolved      { rimraf: '2',
+silly resolved        mkdirp: '0.3',
+silly resolved        'graceful-fs': '~1.1.2',
+silly resolved        inherits: '~1.0.0' },
+silly resolved     devDependencies: { tap: '' },
+silly resolved     scripts: { test: 'tap examples/*.js' },
+silly resolved     license: 'BSD',
+silly resolved     _id: 'fstream@0.1.18',
+silly resolved     _engineSupported: false,
+silly resolved     _npmVersion: '1.0.106',
+silly resolved     _nodeVersion: 'v0.5.11-pre',
+silly resolved     _defaultsLoaded: true },
+silly resolved   { author: 
+silly resolved      { name: 'Isaac Z. Schlueter',
+silly resolved        email: 'i@izs.me',
+silly resolved        url: 'http://blog.izs.me/' },
+silly resolved     name: 'fstream-npm',
+silly resolved     description: 'fstream class for creating npm packages',
+silly resolved     version: '0.1.0',
+silly resolved     repository: { type: 'git', url: 'git://github.com/isaacs/fstream-npm.git' },
+silly resolved     main: './fstream-npm.js',
+silly resolved     dependencies: { 'fstream-ignore': '~0.0.5', inherits: '' },
+silly resolved     license: 'BSD',
+silly resolved     _id: 'fstream-npm@0.1.0',
+silly resolved     devDependencies: {},
+silly resolved     engines: { node: '*' },
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.0.106',
+silly resolved     _nodeVersion: 'v0.5.11-pre',
+silly resolved     _defaultsLoaded: true },
+silly resolved   { name: 'nodejitsu-api',
+silly resolved     version: '0.3.1',
+silly resolved     description: 'nodejitsu API client wrapper',
+silly resolved     homepage: 'http://github.com/nodejitsu/nodejitsu-api',
+silly resolved     repository: 
+silly resolved      { type: 'git',
+silly resolved        url: 'git://github.com/nodejitsu/nodejitsu-api.git' },
+silly resolved     main: './lib/client.js',
+silly resolved     scripts: { test: 'vows --spec ./test/commands/*-test.js' },
+silly resolved     dependencies: { request: '2.2.x' },
+silly resolved     devDependencies: { vows: '0.6.x', nock: '0.10.x' },
+silly resolved     author: { name: 'Nodejitsu Inc.', email: 'info@nodejitsu.com' },
+silly resolved     maintainers: 
+silly resolved      [ { name: 'AvianFlu', email: 'avianflu@nodejitsu.com' },
+silly resolved        { name: 'Marak', email: 'marak@nodejitsu.com' } ],
+silly resolved     _id: 'nodejitsu-api@0.3.1',
+silly resolved     engines: { node: '*' },
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.0.106',
+silly resolved     _nodeVersion: 'v0.5.11-pre',
+silly resolved     _defaultsLoaded: true },
+silly resolved   { name: 'pkginfo',
+silly resolved     version: '0.2.3',
+silly resolved     description: 'An easy way to expose properties on a module from a package.json',
+silly resolved     author: { name: 'Charlie Robbins', email: 'charlie.robbins@gmail.com' },
+silly resolved     repository: 
+silly resolved      { type: 'git',
+silly resolved        url: 'git://github.com/indexzero/node-pkginfo.git' },
+silly resolved     keywords: [ 'info', 'tools', 'package.json' ],
+silly resolved     devDependencies: { vows: '0.6.x' },
+silly resolved     main: './lib/pkginfo',
+silly resolved     scripts: { test: 'vows test/*-test.js --spec' },
+silly resolved     engines: { node: '>= 0.4.0' },
+silly resolved     _id: 'pkginfo@0.2.3',
+silly resolved     dependencies: {},
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.0.106',
+silly resolved     _nodeVersion: 'v0.5.11-pre',
+silly resolved     _defaultsLoaded: true },
+silly resolved   { name: 'require-analyzer',
+silly resolved     description: 'Determine dependencies for a given node.js file, directory tree, or module in code or on the command line',
+silly resolved     version: '0.4.0-3',
+silly resolved     author: { name: 'Charlie Robbins', email: 'charlie.robbins@gmail.com' },
+silly resolved     contributors: 
+silly resolved      [ { name: 'Marak Squires', email: 'marak@nodejitsu.com' },
+silly resolved        { name: 'Bradley Meck', email: 'bradley@nodejitsu.com' },
+silly resolved        { name: 'Dominic Tarr', email: 'dominic@nodejitsu.com' },
+silly resolved        { name: 'Charlie McConnell', email: 'avianflu@nodejitsu.com' },
+silly resolved        { name: 'Maciej Malecki', email: 'maciej@nodejitsu.com' } ],
+silly resolved     repository: 
+silly resolved      { type: 'git',
+silly resolved        url: 'git://github.com/nodejitsu/require-analyzer.git' },
+silly resolved     dependencies: 
+silly resolved      { colors: '0.x.x',
+silly resolved        findit: '0.0.x',
+silly resolved        npm: '1.1.4',
+silly resolved        optimist: '0.2.x',
+silly resolved        semver: '1.0.x',
+silly resolved        winston: '0.5.x',
+silly resolved        detective: '0.0.x',
+silly resolved        eyes: '0.1.x' },
+silly resolved     devDependencies: { vows: '0.6.x' },
+silly resolved     main: './lib/require-analyzer',
+silly resolved     bin: { 'require-analyzer': './bin/require-analyzer' },
+silly resolved     engines: { node: '>= 0.4.0' },
+silly resolved     scripts: { test: 'vows test/*-test.js --spec' },
+silly resolved     _id: 'require-analyzer@0.4.0-3',
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.0.106',
+silly resolved     _nodeVersion: 'v0.5.11-pre',
+silly resolved     _defaultsLoaded: true },
+silly resolved   { name: 'semver',
+silly resolved     version: '1.0.13',
+silly resolved     description: 'The semantic version parser used by npm.',
+silly resolved     main: 'semver.js',
+silly resolved     scripts: { test: 'tap test.js' },
+silly resolved     devDependencies: { tap: '0.x >=0.0.4' },
+silly resolved     license: 
+silly resolved      { type: 'MIT',
+silly resolved        url: 'https://github.com/isaacs/semver/raw/master/LICENSE' },
+silly resolved     repository: { type: 'git', url: 'git://github.com/isaacs/node-semver.git' },
+silly resolved     bin: { semver: './bin/semver' },
+silly resolved     _id: 'semver@1.0.13',
+silly resolved     dependencies: {},
+silly resolved     engines: { node: '*' },
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.0.106',
+silly resolved     _nodeVersion: 'v0.5.11-pre',
+silly resolved     _defaultsLoaded: true },
+silly resolved   { name: 'spawn-command',
+silly resolved     author: { name: 'Maciej Małecki', email: 'me@mmalecki.com' },
+silly resolved     description: 'Spawn commands like `child_process.exec` does but return a `ChildProcess`',
+silly resolved     version: '0.0.1',
+silly resolved     main: './lib/spawn-command',
+silly resolved     scripts: { test: 'node test/spawn-command-test.js' },
+silly resolved     _id: 'spawn-command@0.0.1',
+silly resolved     dependencies: {},
+silly resolved     devDependencies: {},
+silly resolved     engines: { node: '*' },
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.0.106',
+silly resolved     _nodeVersion: 'v0.5.11-pre',
+silly resolved     _defaultsLoaded: true },
+silly resolved   { name: 'request',
+silly resolved     description: 'Simplified HTTP request client.',
+silly resolved     tags: [ 'http', 'simple', 'util', 'utility' ],
+silly resolved     version: '2.9.100',
+silly resolved     author: { name: 'Mikeal Rogers', email: 'mikeal.rogers@gmail.com' },
+silly resolved     repository: { type: 'git', url: 'git://github.com/mikeal/request.git' },
+silly resolved     bugs: { url: 'http://github.com/mikeal/request/issues' },
+silly resolved     engines: [ 'node >= 0.3.6', node: ' >= 0.3.6' ],
+silly resolved     main: './main',
+silly resolved     scripts: { test: 'bash tests/run.sh' },
+silly resolved     _id: 'request@2.9.100',
+silly resolved     dependencies: {},
+silly resolved     devDependencies: {},
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.0.106',
+silly resolved     _nodeVersion: 'v0.5.11-pre',
+silly resolved     _defaultsLoaded: true },
+silly resolved   { author: { name: 'marak', email: 'marak.squires@gmail.com' },
+silly resolved     name: 'wizard',
+silly resolved     version: '0.0.1',
+silly resolved     main: './lib/wizard',
+silly resolved     dependencies: { prompt: '*' },
+silly resolved     devDependencies: {},
+silly resolved     optionalDependencies: {},
+silly resolved     engines: { node: '*' },
+silly resolved     _id: 'wizard@0.0.1',
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.0.106',
+silly resolved     _nodeVersion: 'v0.5.11-pre',
+silly resolved     _defaultsLoaded: true },
+silly resolved   { author: 
+silly resolved      { name: 'Isaac Z. Schlueter',
+silly resolved        email: 'i@izs.me',
+silly resolved        url: 'http://blog.izs.me/' },
+silly resolved     name: 'tar',
+silly resolved     description: 'tar for node',
+silly resolved     version: '0.1.13',
+silly resolved     repository: { type: 'git', url: 'git://github.com/isaacs/node-tar.git' },
+silly resolved     main: 'tar.js',
+silly resolved     scripts: { test: 'tap test/*.js' },
+silly resolved     engines: { node: '~0.5.9 || 0.6 || 0.7 || 0.8' },
+silly resolved     dependencies: { inherits: '1.x', 'block-stream': '*', fstream: '~0.1.8' },
+silly resolved     devDependencies: { tap: '0.x', rimraf: '1.x' },
+silly resolved     _id: 'tar@0.1.13',
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.0.106',
+silly resolved     _nodeVersion: 'v0.5.11-pre',
+silly resolved     _defaultsLoaded: true } ]
+info into /home/lhk/Desktop/node_modules/jitsu colors@0.6.0-1
+info into /home/lhk/Desktop/node_modules/jitsu dateformat@1.0.2-1.2.3
+info into /home/lhk/Desktop/node_modules/jitsu complete@0.3.1
+info into /home/lhk/Desktop/node_modules/jitsu flatiron@0.2.5
+info into /home/lhk/Desktop/node_modules/jitsu flatiron-cli-config@0.1.3
+info into /home/lhk/Desktop/node_modules/jitsu flatiron-cli-users@0.1.1
+info into /home/lhk/Desktop/node_modules/jitsu npm@1.1.16
+info into /home/lhk/Desktop/node_modules/jitsu fstream@0.1.18
+info into /home/lhk/Desktop/node_modules/jitsu fstream-npm@0.1.0
+info into /home/lhk/Desktop/node_modules/jitsu nodejitsu-api@0.3.1
+info into /home/lhk/Desktop/node_modules/jitsu pkginfo@0.2.3
+info into /home/lhk/Desktop/node_modules/jitsu require-analyzer@0.4.0-3
+info into /home/lhk/Desktop/node_modules/jitsu semver@1.0.13
+info into /home/lhk/Desktop/node_modules/jitsu spawn-command@0.0.1
+info into /home/lhk/Desktop/node_modules/jitsu request@2.9.100
+info into /home/lhk/Desktop/node_modules/jitsu wizard@0.0.1
+info into /home/lhk/Desktop/node_modules/jitsu tar@0.1.13
+info installOne colors@0.6.0-1
+info installOne dateformat@1.0.2-1.2.3
+info installOne complete@0.3.1
+info installOne flatiron@0.2.5
+info installOne flatiron-cli-config@0.1.3
+verbose installOne cb flatiron-cli-config@0.1.3
+verbose about to build /home/lhk/Desktop/node_modules/jitsu
+ERR! error installing jitsu@0.9.5 Error: Unsupported
+ERR! error installing jitsu@0.9.5     at checkEngine (/usr/local/lib/node_modules/npm/lib/install.js:493:14)
+ERR! error installing jitsu@0.9.5     at Array.0 (/usr/local/lib/node_modules/npm/node_modules/slide/lib/bind-actor.js:15:8)
+ERR! error installing jitsu@0.9.5     at LOOP (/usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:15:13)
+ERR! error installing jitsu@0.9.5     at chain (/usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:20:4)
+ERR! error installing jitsu@0.9.5     at installOne_ (/usr/local/lib/node_modules/npm/lib/install.js:470:3)
+ERR! error installing jitsu@0.9.5     at installOne (/usr/local/lib/node_modules/npm/lib/install.js:411:3)
+ERR! error installing jitsu@0.9.5     at /usr/local/lib/node_modules/npm/lib/install.js:347:9
+ERR! error installing jitsu@0.9.5     at /usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:54:35
+ERR! error installing jitsu@0.9.5     at Array.forEach (native)
+ERR! error installing jitsu@0.9.5     at /usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:54:11
+info unbuild /home/lhk/Desktop/node_modules/jitsu
+verbose from cache /home/lhk/Desktop/node_modules/jitsu/package.json
+info preuninstall jitsu@0.9.5
+info installOne flatiron-cli-users@0.1.1
+verbose installOne cb flatiron-cli-users@0.1.1
+info installOne npm@1.1.16
+verbose installOne cb npm@1.1.16
+info installOne fstream@0.1.18
+verbose installOne cb fstream@0.1.18
+info installOne fstream-npm@0.1.0
+info installOne nodejitsu-api@0.3.1
+info installOne pkginfo@0.2.3
+info installOne require-analyzer@0.4.0-3
+info installOne semver@1.0.13
+info installOne spawn-command@0.0.1
+info installOne request@2.9.100
+info installOne wizard@0.0.1
+info installOne tar@0.1.13
+info unbuild /home/lhk/Desktop/node_modules/jitsu/node_modules/colors
+info unbuild /home/lhk/Desktop/node_modules/jitsu/node_modules/dateformat
+info unbuild /home/lhk/Desktop/node_modules/jitsu/node_modules/complete
+info unbuild /home/lhk/Desktop/node_modules/jitsu/node_modules/flatiron
+info unbuild /home/lhk/Desktop/node_modules/jitsu/node_modules/fstream-npm
+info unbuild /home/lhk/Desktop/node_modules/jitsu/node_modules/nodejitsu-api
+info unbuild /home/lhk/Desktop/node_modules/jitsu/node_modules/pkginfo
+info unbuild /home/lhk/Desktop/node_modules/jitsu/node_modules/require-analyzer
+info unbuild /home/lhk/Desktop/node_modules/jitsu/node_modules/semver
+info unbuild /home/lhk/Desktop/node_modules/jitsu/node_modules/spawn-command
+info unbuild /home/lhk/Desktop/node_modules/jitsu/node_modules/request
+info unbuild /home/lhk/Desktop/node_modules/jitsu/node_modules/wizard
+info unbuild /home/lhk/Desktop/node_modules/jitsu/node_modules/tar
+info uninstall jitsu@0.9.5
+verbose from cache /home/lhk/.npm/colors/0.6.0-1/package/package.json
+verbose from cache /home/lhk/.npm/dateformat/1.0.2-1.2.3/package/package.json
+verbose from cache /home/lhk/.npm/complete/0.3.1/package/package.json
+verbose from cache /home/lhk/.npm/flatiron/0.2.5/package/package.json
+verbose unbuild jitsu@0.9.5 [ true,
+verbose unbuild jitsu@0.9.5   '/home/lhk/Desktop/node_modules',
+verbose unbuild jitsu@0.9.5   '/home/lhk/Desktop/node_modules' ]
+verbose binRoot [ '/home/lhk/Desktop/node_modules/.bin',
+verbose binRoot   { jitsu: './bin/jitsu' } ]
+verbose from cache /home/lhk/.npm/fstream-npm/0.1.0/package/package.json
+verbose from cache /home/lhk/.npm/nodejitsu-api/0.3.1/package/package.json
+verbose from cache /home/lhk/.npm/pkginfo/0.2.3/package/package.json
+verbose from cache /home/lhk/.npm/require-analyzer/0.4.0-3/package/package.json
+verbose from cache /home/lhk/.npm/semver/1.0.13/package/package.json
+verbose from cache /home/lhk/.npm/spawn-command/0.0.1/package/package.json
+verbose from cache /home/lhk/.npm/request/2.9.100/package/package.json
+verbose from cache /home/lhk/.npm/wizard/0.0.1/package/package.json
+verbose from cache /home/lhk/.npm/tar/0.1.13/package/package.json
+info postuninstall jitsu@0.9.5
+verbose mkdir (expected) error ENOENT, No such file or directory '/home/lhk/Desktop/node_modules/jitsu/node_modules'
+verbose mkdir (expected) error ENOENT, No such file or directory '/home/lhk/Desktop/node_modules/jitsu/node_modules'
+verbose mkdir (expected) error ENOENT, No such file or directory '/home/lhk/Desktop/node_modules/jitsu/node_modules'
+verbose mkdir (expected) error ENOENT, No such file or directory '/home/lhk/Desktop/node_modules/jitsu/node_modules'
+verbose mkdir (expected) error ENOENT, No such file or directory '/home/lhk/Desktop/node_modules/jitsu/node_modules'
+verbose mkdir (expected) error ENOENT, No such file or directory '/home/lhk/Desktop/node_modules/jitsu/node_modules'
+verbose mkdir (expected) error ENOENT, No such file or directory '/home/lhk/Desktop/node_modules/jitsu/node_modules'
+verbose mkdir (expected) error ENOENT, No such file or directory '/home/lhk/Desktop/node_modules/jitsu/node_modules'
+verbose mkdir (expected) error ENOENT, No such file or directory '/home/lhk/Desktop/node_modules/jitsu/node_modules'
+verbose mkdir (expected) error ENOENT, No such file or directory '/home/lhk/Desktop/node_modules/jitsu/node_modules'
+verbose mkdir (expected) error ENOENT, No such file or directory '/home/lhk/Desktop/node_modules/jitsu/node_modules'
+verbose mkdir (expected) error ENOENT, No such file or directory '/home/lhk/Desktop/node_modules/jitsu/node_modules'
+verbose mkdir (expected) error ENOENT, No such file or directory '/home/lhk/Desktop/node_modules/jitsu/node_modules'
+verbose mkdir (expected) error ENOENT, No such file or directory '/home/lhk/Desktop/node_modules/jitsu/node_modules/___colors.npm'
+verbose mkdir (expected) error ENOENT, No such file or directory '/home/lhk/Desktop/node_modules/jitsu/node_modules/___dateformat.npm'
+verbose mkdir (expected) error ENOENT, No such file or directory '/home/lhk/Desktop/node_modules/jitsu/node_modules/___complete.npm'
+verbose mkdir (expected) error ENOENT, No such file or directory '/home/lhk/Desktop/node_modules/jitsu/node_modules/___flatiron.npm'
+verbose mkdir (expected) error ENOENT, No such file or directory '/home/lhk/Desktop/node_modules/jitsu/node_modules/___fstream-npm.npm'
+verbose mkdir (expected) error ENOENT, No such file or directory '/home/lhk/Desktop/node_modules/jitsu/node_modules/___nodejitsu-api.npm'
+verbose mkdir (expected) error ENOENT, No such file or directory '/home/lhk/Desktop/node_modules/jitsu/node_modules/___pkginfo.npm'
+verbose mkdir (expected) error ENOENT, No such file or directory '/home/lhk/Desktop/node_modules/jitsu/node_modules/___require-analyzer.npm'
+verbose mkdir (expected) error ENOENT, No such file or directory '/home/lhk/Desktop/node_modules/jitsu/node_modules/___semver.npm'
+verbose mkdir (expected) error ENOENT, No such file or directory '/home/lhk/Desktop/node_modules/jitsu/node_modules/___spawn-command.npm'
+verbose mkdir (expected) error ENOENT, No such file or directory '/home/lhk/Desktop/node_modules/jitsu/node_modules/___request.npm'
+verbose mkdir (expected) error ENOENT, No such file or directory '/home/lhk/Desktop/node_modules/jitsu/node_modules/___wizard.npm'
+verbose mkdir (expected) error ENOENT, No such file or directory '/home/lhk/Desktop/node_modules/jitsu/node_modules/___tar.npm'
+verbose mkdir done: /home/lhk/Desktop/node_modules/jitsu/node_modules/___colors.npm 755
+verbose mkdir done: /home/lhk/Desktop/node_modules/jitsu/node_modules/___dateformat.npm 755
+verbose mkdir done: /home/lhk/Desktop/node_modules/jitsu/node_modules/___complete.npm 755
+verbose mkdir done: /home/lhk/Desktop/node_modules/jitsu/node_modules/___flatiron.npm 755
+verbose mkdir done: /home/lhk/Desktop/node_modules/jitsu/node_modules/___fstream-npm.npm 755
+verbose mkdir done: /home/lhk/Desktop/node_modules/jitsu/node_modules/___nodejitsu-api.npm 755
+verbose mkdir done: /home/lhk/Desktop/node_modules/jitsu/node_modules/___pkginfo.npm 755
+verbose mkdir done: /home/lhk/Desktop/node_modules/jitsu/node_modules/___require-analyzer.npm 755
+verbose mkdir done: /home/lhk/Desktop/node_modules/jitsu/node_modules/___semver.npm 755
+verbose mkdir done: /home/lhk/Desktop/node_modules/jitsu/node_modules/___spawn-command.npm 755
+verbose mkdir done: /home/lhk/Desktop/node_modules/jitsu/node_modules/___request.npm 755
+verbose mkdir done: /home/lhk/Desktop/node_modules/jitsu/node_modules/___wizard.npm 755
+verbose mkdir done: /home/lhk/Desktop/node_modules/jitsu/node_modules/___tar.npm 755
+verbose unpack_ uid, gid [ 1000, 1000 ]
+verbose unpackTarget /home/lhk/Desktop/node_modules/jitsu/node_modules/colors
+silly gunzTarPerm modes [ '755', '644' ]
+silly spawning [ 'tar',
+silly spawning   [ '-zmvxpf', '/home/lhk/.npm/colors/0.6.0-1/package.tgz', '-o' ],
+silly spawning   '/home/lhk/Desktop/node_modules/jitsu/node_modules/___colors.npm' ]
+verbose unpack_ uid, gid [ 1000, 1000 ]
+verbose unpackTarget /home/lhk/Desktop/node_modules/jitsu/node_modules/dateformat
+silly gunzTarPerm modes [ '755', '644' ]
+silly spawning [ 'tar',
+silly spawning   [ '-zmvxpf',
+silly spawning     '/home/lhk/.npm/dateformat/1.0.2-1.2.3/package.tgz',
+silly spawning     '-o' ],
+silly spawning   '/home/lhk/Desktop/node_modules/jitsu/node_modules/___dateformat.npm' ]
+verbose unpack_ uid, gid [ 1000, 1000 ]
+verbose unpackTarget /home/lhk/Desktop/node_modules/jitsu/node_modules/complete
+silly gunzTarPerm modes [ '755', '644' ]
+silly spawning [ 'tar',
+silly spawning   [ '-zmvxpf', '/home/lhk/.npm/complete/0.3.1/package.tgz', '-o' ],
+silly spawning   '/home/lhk/Desktop/node_modules/jitsu/node_modules/___complete.npm' ]
+verbose unpack_ uid, gid [ 1000, 1000 ]
+verbose unpackTarget /home/lhk/Desktop/node_modules/jitsu/node_modules/flatiron
+silly gunzTarPerm modes [ '755', '644' ]
+silly spawning [ 'tar',
+silly spawning   [ '-zmvxpf', '/home/lhk/.npm/flatiron/0.2.5/package.tgz', '-o' ],
+silly spawning   '/home/lhk/Desktop/node_modules/jitsu/node_modules/___flatiron.npm' ]
+silly tar out package/example.html
+silly tar out package/colors.js
+silly tar out package/example.js
+silly tar out package/package.json
+silly tar out package/ReadMe.md
+silly tar out package/test.js
+silly tar out package/MIT-LICENSE.txt
+silly tar exit 0
+verbose unpack_ uid, gid [ 1000, 1000 ]
+verbose unpackTarget /home/lhk/Desktop/node_modules/jitsu/node_modules/fstream-npm
+silly gunzTarPerm modes [ '755', '644' ]
+silly spawning [ 'tar',
+silly spawning   [ '-zmvxpf',
+silly spawning     '/home/lhk/.npm/fstream-npm/0.1.0/package.tgz',
+silly spawning     '-o' ],
+silly spawning   '/home/lhk/Desktop/node_modules/jitsu/node_modules/___fstream-npm.npm' ]
+verbose unpack_ uid, gid [ 1000, 1000 ]
+verbose unpackTarget /home/lhk/Desktop/node_modules/jitsu/node_modules/nodejitsu-api
+silly gunzTarPerm modes [ '755', '644' ]
+silly spawning [ 'tar',
+silly spawning   [ '-zmvxpf',
+silly spawning     '/home/lhk/.npm/nodejitsu-api/0.3.1/package.tgz',
+silly spawning     '-o' ],
+silly spawning   '/home/lhk/Desktop/node_modules/jitsu/node_modules/___nodejitsu-api.npm' ]
+verbose unpack_ uid, gid [ 1000, 1000 ]
+verbose unpackTarget /home/lhk/Desktop/node_modules/jitsu/node_modules/pkginfo
+silly gunzTarPerm modes [ '755', '644' ]
+silly spawning [ 'tar',
+silly spawning   [ '-zmvxpf', '/home/lhk/.npm/pkginfo/0.2.3/package.tgz', '-o' ],
+silly spawning   '/home/lhk/Desktop/node_modules/jitsu/node_modules/___pkginfo.npm' ]
+verbose unpack_ uid, gid [ 1000, 1000 ]
+verbose unpackTarget /home/lhk/Desktop/node_modules/jitsu/node_modules/require-analyzer
+silly gunzTarPerm modes [ '755', '644' ]
+silly spawning [ 'tar',
+silly spawning   [ '-zmvxpf',
+silly spawning     '/home/lhk/.npm/require-analyzer/0.4.0-3/package.tgz',
+silly spawning     '-o' ],
+silly spawning   '/home/lhk/Desktop/node_modules/jitsu/node_modules/___require-analyzer.npm' ]
+verbose unpack_ uid, gid [ 1000, 1000 ]
+verbose unpackTarget /home/lhk/Desktop/node_modules/jitsu/node_modules/semver
+silly gunzTarPerm modes [ '755', '644' ]
+silly spawning [ 'tar',
+silly spawning   [ '-zmvxpf', '/home/lhk/.npm/semver/1.0.13/package.tgz', '-o' ],
+silly spawning   '/home/lhk/Desktop/node_modules/jitsu/node_modules/___semver.npm' ]
+verbose unpack_ uid, gid [ 1000, 1000 ]
+verbose unpackTarget /home/lhk/Desktop/node_modules/jitsu/node_modules/spawn-command
+silly gunzTarPerm modes [ '755', '644' ]
+silly spawning [ 'tar',
+silly spawning   [ '-zmvxpf',
+silly spawning     '/home/lhk/.npm/spawn-command/0.0.1/package.tgz',
+silly spawning     '-o' ],
+silly spawning   '/home/lhk/Desktop/node_modules/jitsu/node_modules/___spawn-command.npm' ]
+verbose unpack_ uid, gid [ 1000, 1000 ]
+verbose unpackTarget /home/lhk/Desktop/node_modules/jitsu/node_modules/request
+silly gunzTarPerm modes [ '755', '644' ]
+silly spawning [ 'tar',
+silly spawning   [ '-zmvxpf', '/home/lhk/.npm/request/2.9.100/package.tgz', '-o' ],
+silly spawning   '/home/lhk/Desktop/node_modules/jitsu/node_modules/___request.npm' ]
+verbose unpack_ uid, gid [ 1000, 1000 ]
+verbose unpackTarget /home/lhk/Desktop/node_modules/jitsu/node_modules/wizard
+silly gunzTarPerm modes [ '755', '644' ]
+silly spawning [ 'tar',
+silly spawning   [ '-zmvxpf', '/home/lhk/.npm/wizard/0.0.1/package.tgz', '-o' ],
+silly spawning   '/home/lhk/Desktop/node_modules/jitsu/node_modules/___wizard.npm' ]
+verbose unpack_ uid, gid [ 1000, 1000 ]
+verbose unpackTarget /home/lhk/Desktop/node_modules/jitsu/node_modules/tar
+silly gunzTarPerm modes [ '755', '644' ]
+silly spawning [ 'tar',
+silly spawning   [ '-zmvxpf', '/home/lhk/.npm/tar/0.1.13/package.tgz', '-o' ],
+silly spawning   '/home/lhk/Desktop/node_modules/jitsu/node_modules/___tar.npm' ]
+silly tar out package/LICENSE
+silly tar out package/README.md
+silly tar out package/uuid.js
+silly tar out package/package.json
+silly tar out package/oauth.js
+silly tar out package/forever.js
+silly tar out package/main.js
+silly tar out package/mimetypes.js
+silly tar out package/vendor/cookie/index.js
+silly tar out package/vendor/cookie/jar.js
+silly tar out package/tests/test-httpModule.js
+silly tar out package/tests/test-oauth.js
+silly tar out package/tests/test-cookie.js
+silly tar out package/tests/test-https.js
+silly tar out package/tests/test-body.js
+silly tar out package/tests/test-pipes.js
+silly tar out package/tests/test-errors.js
+silly tar out package/tests/test-cookiejar.js
+silly tar out package/tests/googledoodle.png
+silly tar out package/tests/server.js
+silly tar out package/tests/run.sh
+silly tar out package/tests/test-timeout.js
+silly tar out package/tests/test-redirect.js
+silly tar out package/tests/test-proxy.js
+silly tar out package/tests/ssl/test.key
+silly tar out package/tests/ssl/test.crt
+silly tar out package/LICENSE
+silly tar out package/README.md
+silly tar out package/package.json
+silly tar out package/.npmignore
+silly tar out package/.travis.yml
+silly tar out package/examples/simple.js
+silly tar out package/lib/spawn-command.js
+silly tar out package/test/spawn-command-test.js
+silly tar out package/test/fixtures/commit
+silly tar out package/LICENSE
+silly tar out package/README.md
+silly tar out package/package.json
+silly tar out package/test.js
+silly tar out package/semver.js
+silly tar out package/bin/semver
+silly tar out package/README.md
+silly tar out package/package.json
+silly tar out package/.npmignore
+silly tar out package/bin/find-dependencies
+silly tar out package/bin/require-analyzer
+silly tar out package/docs/require-analyzer.html
+silly tar out package/docs/docco.css
+silly tar out package/lib/require-analyzer.js
+silly tar out package/test/example-apps-test.js
+silly tar out package/test/require-analyzer-cli-test.js
+silly tar out package/test/require-analyzer-test.js
+silly tar out package/test/fixtures/.npmignore
+silly tar out package/test/fixtures/require-only/index.js
+silly tar out package/test/fixtures/socket-io-app/index.js
+silly tar out package/test/fixtures/subdeps/package.json
+silly tar out package/test/fixtures/subdeps/app.js
+silly tar out package/test/fixtures/subdeps/otherstuff.js
+silly tar out package/test/fixtures/conflicting-app/package.json
+silly tar out package/test/fixtures/conflicting-app/index.js
+silly tar out package/test/fixtures/dynamic-deps/package.json
+silly tar out package/test/fixtures/dynamic-deps/index.js
+silly tar out package/test/fixtures/example-app1/package.json
+silly tar out package/test/fixtures/example-app1/index.js
+silly tar out package/test/fixtures/explicit-versions/package.json
+silly tar out package/test/fixtures/explicit-versions/app.js
+silly tar out package/test/fixtures/example-app2/package.json
+silly tar out package/test/fixtures/example-app2/index.js
+silly tar out package/test/fixtures/version-ranges/package.json
+silly tar out package/test/fixtures/version-ranges/app.js
+silly tar out package/test/fixtures/version-ranges/otherstuff.js
+silly tar out package/test/fixtures/wildcards/package.json
+silly tar out package/test/fixtures/wildcards/index.js
+silly tar out package/test/fixtures/example-app3/package.json
+silly tar out package/test/fixtures/example-app3/index.js
+silly tar out package/.gitignore
+silly tar out package/README.md
+silly tar out package/package.json
+silly tar out package/test/pkginfo-test.js
+silly tar out package/docs/docco.css
+silly tar out package/docs/pkginfo.html
+silly tar out package/lib/pkginfo.js
+silly tar out package/examples/all-properties.js
+silly tar out package/examples/package.json
+silly tar out package/examples/array-argument.js
+silly tar out package/examples/single-property.js
+silly tar out package/examples/object-argument.js
+silly tar out package/examples/multiple-properties.js
+silly tar out package/package.json
+silly tar out package/ReadMe.md
+silly tar out package/.npmignore
+silly tar out package/examples/create-api-key.js
+silly tar out package/examples/snapshots-list.js
+silly tar out package/examples/get-key.js
+silly tar out package/examples/destroy-key.js
+silly tar out package/examples/create-ssh-key.js
+silly tar out package/examples/check-auth.js
+silly tar out package/examples/get-application.js
+silly tar out package/examples/start-app.js
+silly tar out package/examples/list-apps.js
+silly tar out package/examples/list-keys.js
+silly tar out package/examples/restart-app.js
+silly tar out package/examples/stop-app.js
+silly tar out package/examples/get-logs-by-app.js
+silly tar out package/examples/get-logs-by-user.js
+silly tar out package/test/helpers.js
+silly tar out package/test/macros.js
+silly tar out package/test/fixtures/snapshot.tgz
+silly tar out package/test/commands/users-test.js
+silly tar out package/test/commands/databases-test.js
+silly tar out package/test/commands/snapshots-test.js
+silly tar out package/test/commands/logs-test.js
+silly tar out package/test/commands/apps-test.js
+silly tar out package/lib/client.js
+silly tar out package/lib/client/helpers.js
+silly tar out package/lib/client/client.js
+silly tar out package/lib/client/databases.js
+silly tar out package/lib/client/users.js
+silly tar out package/lib/client/apps.js
+silly tar out package/lib/client/keys.js
+silly tar out package/lib/client/snapshots.js
+silly tar out package/lib/client/logs.js
+silly tar out package/README.md
+silly tar out package/package.json
+silly tar out package/LICENCE
+silly tar out package/.npmignore
+silly tar out package/fstream-npm.js
+silly tar out package/example/bundle.js
+silly tar out package/example/example.js
+silly tar out package/example/dir-tar.js
+silly tar out package/example/dir.js
+silly tar out package/example/tar.js
+silly tar out package/example/ig-tar.js
+silly tar out package/LICENSE
+silly tar out package/README.md
+silly tar out package/package.json
+silly tar out package/.npmignore
+silly tar out package/.travis.yml
+silly tar out package/bin/flatiron
+silly tar out package/lib/flatiron.js
+silly tar out package/lib/flatiron/app.js
+silly tar out package/lib/flatiron/common.js
+silly tar out package/lib/flatiron/constants.js
+silly tar out package/lib/flatiron/cli/create.js
+silly tar out package/lib/flatiron/plugins/http.js
+silly tar out package/lib/flatiron/plugins/ecstatic.js
+silly tar out package/lib/flatiron/plugins/resourceful.js
+silly tar out package/lib/flatiron/plugins/cli.js
+silly tar out package/scaffolds/cli/package.json
+silly tar out package/scaffolds/cli/files.json
+silly tar out package/scaffolds/cli/app.js
+silly tar out package/scaffolds/cli/directories.json
+silly tar out package/scaffolds/cli/config/config.json
+silly tar out package/scaffolds/cli/lib/index.js
+silly tar out package/scaffolds/http/package.json
+silly tar out package/scaffolds/http/files.json
+silly tar out package/scaffolds/http/app.js
+silly tar out package/scaffolds/http/directories.json
+silly tar out package/scaffolds/http/config/config.json
+silly tar out package/test/flatiron-test.js
+silly tar out package/test/plugins/resourceful-test.js
+silly tar out package/test/plugins/ecstatic-test.js
+silly tar out package/test/fixtures/sample-app/app/new-york/controller.js
+silly tar out package/test/fixtures/sample-app/app/new-york/index.js
+silly tar out package/test/fixtures/sample-app/app/new-york/new-york.js
+silly tar out package/examples/http-sample.js
+silly tar out package/examples/socket.io/index.html
+silly tar out package/examples/socket.io/server.js
+silly tar out package/examples/cli-sample/print.js
+silly tar out package/examples/cli-sample/index.js
+silly tar out package/examples/ecstatic-app/package.json
+silly tar out package/examples/ecstatic-app/app.js
+silly tar out package/examples/ecstatic-app/app/assets/style.css
+silly tar out package/examples/ecstatic-app/app/assets/style.js
+silly tar out package/examples/resourceful-app/package.json
+silly tar out package/examples/resourceful-app/app.js
+silly tar out package/examples/resourceful-app/app/resources/creature.js
+silly tar out package/README.md
+silly tar out package/package.json
+silly tar out package/.npmignore
+silly tar out package/lib/complete.js
+silly tar out package/example/package.json
+silly tar out package/example/bin/exampleapp
+silly tar out package/example/bin/examplecomp
+silly tar out package/package.json
+silly tar out package/Readme.md
+silly tar out package/test/test_weekofyear.sh
+silly tar out package/test/test_weekofyear.js
+silly tar out package/lib/dateformat.js
+silly tar exit 0
+silly tar exit 0
+silly tar exit 0
+silly tar exit 0
+silly tar exit 0
+silly tar exit 0
+silly tar exit 0
+silly tar exit 0
+silly tar exit 0
+silly tar exit 0
+ERR! error rolling back jitsu@0.9.5 Error: UNKNOWN, Unknown error '/home/lhk/Desktop/node_modules/jitsu'
+verbose installOne cb jitsu@0.9.5
+ERR! Unsupported
+ERR! Not compatible with your version of node/npm: flatiron-cli-config@0.1.3
+ERR! Required: {"node":">= 0.6.0"}
+ERR! Actual:   {"npm":"1.0.106","node":"0.5.11-pre"}
+ERR! 
+ERR! System Linux 3.2.0-23-generic
+ERR! command "node" "/usr/local/bin/npm" "install" "jitsu"
+ERR! cwd /home/lhk/Desktop/nodejs-test
+ERR! node -v v0.5.11-pre
+ERR! npm -v 1.0.106
+ERR! code ENOTSUP
+verbose exit [ 1, true ]
